@@ -11,6 +11,7 @@ public class MovementController : MonoBehaviour
     [SerializeField] private float _jumpHeight;
     [SerializeField] private float _gravity = -9.81f;
     private CharacterController _controller;
+    private MainCharacter _mainCharacter;
     private Vector3 _velocity;
     private bool _isGrounded;
     private Vector3 _movement;
@@ -18,6 +19,8 @@ public class MovementController : MonoBehaviour
     private void Start()
     {
         _controller = this.GetComponent<CharacterController>();
+        _mainCharacter = this.GetComponent<MainCharacter>();
+        _speed *= _mainCharacter.CharacterData.speed;
     }
 
     private void Update()
@@ -35,13 +38,13 @@ public class MovementController : MonoBehaviour
             gameObject.transform.forward = _movement;
         }
         
-        if (Input.GetButtonDown("Jump") && _isGrounded)
-        {
-            _velocity.y += Mathf.Sqrt(_jumpHeight * -3.0f * _gravity);
-        }
-
-        _velocity.y += _gravity * Time.deltaTime;
-        _controller.Move(_velocity * Time.deltaTime);
+        // if (Input.GetButtonDown("Jump") && _isGrounded)
+        // {
+        //     _velocity.y += Mathf.Sqrt(_jumpHeight * -3.0f * _gravity);
+        // }
+        //
+        // _velocity.y += _gravity * Time.deltaTime;
+        // _controller.Move(_velocity * Time.deltaTime);
     }
     
     public void OnMove(InputAction.CallbackContext context)
