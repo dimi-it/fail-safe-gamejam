@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Tank
   m_EditorClassIdentifier: 
   healt: 3
-  speed: 1
+  speed: 5
   range: 2
   rateOfFire: 1
-  projectile: {fileID: 3081801338103174534, guid: 8771cae52c5af47bfae4faeedee0cd89, type: 3}
-  projectileSpawnPoint: {x: 0, y: 0, z: 0}
+  projectile: {fileID: 6208919535358331513, guid: 431915a23c82e468993d5b45b2f000ab, type: 3}
+  projectileSpawnPoint: {x: 1, y: 0, z: 0}

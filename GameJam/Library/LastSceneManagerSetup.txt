@@ -1,13 +1,13 @@
 sceneSetups:
-- path: Assets/Mattia/Ui/MainMenu.unity
+- path: Assets/Scenes/UI.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
-- path: Assets/PlayerSelection.unity
-  isLoaded: 0
+- path: Assets/Scenes/PlayerSelection.unity
+  isLoaded: 1
   isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/MattiaSampleScene.unity
-  isLoaded: 0
+  isLoaded: 1
   isActive: 0
   isSubScene: 0
