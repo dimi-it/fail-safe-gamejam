@@ -364,7 +364,8 @@
 "Assets/Scripts/Input/PlayerInputAction.cs"
 "Assets/Scripts/Portal/Portal.cs"
 "Assets/Scripts/Portal/PortalManager.cs"
-"Assets/Scripts/Projectile/BulletMovement.cs"
+"Assets/Scripts/Projectile/Bomb.cs"
+"Assets/Scripts/Projectile/Bullet.cs"
 "Assets/Scripts/Projectile/ProjectileMain.cs"
 "Assets/Scripts/ScriptableObjects/CharacterData.cs"
 -langversion:9.0

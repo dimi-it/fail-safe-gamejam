@@ -3,33 +3,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletMovement : MonoBehaviour
+public class Bullet : MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private float _timeRange;
-    private float _timer;
     private ProjectileMain _projectileMain;
     private GameObject _owner;
-
+    private Rigidbody _rigidbody;
+    
     private void Start()
     {
         _projectileMain = this.GetComponent<ProjectileMain>();
         _owner = _projectileMain.Owner;
+        _rigidbody = this.GetComponent<Rigidbody>();
+        _rigidbody.velocity = _speed * this.transform.forward;
+        Invoke(nameof(OnTimerElapsed), _timeRange);
     }
 
-    private void Update()
+    private void OnTriggerExit(Collider other)
     {
-        _timer += Time.deltaTime;
-        if (_timer > _timeRange)
-        {
-            Destroy(this.gameObject);
-            return;
-        }
-        Vector3 movement = Vector3.forward * (_speed * Time.deltaTime);
-        transform.Translate(movement);
+        this.gameObject.GetComponent<Collider>().isTrigger = false;
     }
 
-    public void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
         GameObject otherObj = other.gameObject;
         if (otherObj.GetInstanceID() == _owner.GetInstanceID())
@@ -40,20 +36,16 @@ public class BulletMovement : MonoBehaviour
         {
             CollideOnPlayer(otherObj);    
         }
-        else if(otherObj.CompareTag(StaticVars.WallTag))
-        {
-             CollideOnWall(otherObj);
-        }
     }
 
-    public void CollideOnPlayer(GameObject player)
+    private void CollideOnPlayer(GameObject player)
     {
         player.GetComponent<CharacterHealt>().DecreaseLife(_projectileMain.Damage);
         Destroy(this.gameObject);
     }
     
-    private void CollideOnWall(GameObject otherObj)
+    private void OnTimerElapsed()
     {
-        throw new NotImplementedException();
+        Destroy(this.gameObject);
     }
 }

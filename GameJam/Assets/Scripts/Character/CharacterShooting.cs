@@ -44,7 +44,7 @@ public class CharacterShooting : MonoBehaviour
         Debug.Log("SHOOT");
         GameObject projectileMain = Instantiate(
             _projectile, 
-            transform.position, 
+            transform.position + _projectileSpawnPoint, 
             transform.GetChild(0).transform.rotation
             );
         projectileMain.GetComponent<ProjectileMain>().SetProjectile(_damagePerBullet, this.gameObject);

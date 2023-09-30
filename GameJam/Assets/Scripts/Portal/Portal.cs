@@ -22,6 +22,10 @@ public class Portal : MonoBehaviour
 
     private void OnTriggerEnter(Collider characterCollider)
     {
+        if (!characterCollider.gameObject.CompareTag("Player"))
+        {
+            return;
+        }
         Debug.Log($"Enter {_isA.ToString()}");
         characterCollider.gameObject.GetComponent<CharacterMain>()
             .OnPortalEnter(_portalManager.GetOther(this));
@@ -29,6 +33,10 @@ public class Portal : MonoBehaviour
 
     private void OnTriggerExit(Collider characterCollider)
     {
+        if (!characterCollider.gameObject.CompareTag("Player"))
+        {
+            return;
+        }
         Debug.Log($"Exit {_isA.ToString()}");
         characterCollider.gameObject.GetComponent<CharacterMain>()
             .OnPortalExit();
