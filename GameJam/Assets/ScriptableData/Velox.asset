@@ -15,3 +15,6 @@ MonoBehaviour:
   healt: 1
   speed: 3
   range: 1
+  rateOfFire: 2
+  projectile: {fileID: 3081801338103174534, guid: 8771cae52c5af47bfae4faeedee0cd89, type: 3}
+  projectileSpawnPoint: {x: 0, y: 0, z: 0}

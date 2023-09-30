@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [CreateAssetMenu(fileName = "CharacterData", menuName = "Custom/CharacterData")]
 public class CharacterData : ScriptableObject
@@ -8,4 +9,7 @@ public class CharacterData : ScriptableObject
     public int healt;
     public int speed;
     public int range;
+    public int rateOfFire;
+    public GameObject projectile;
+    public Vector3 projectileSpawnPoint;
 }
