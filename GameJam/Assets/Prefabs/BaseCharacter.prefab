@@ -16,9 +16,11 @@ GameObject:
   - component: {fileID: 4013387337977753134}
   - component: {fileID: 1879957187983726299}
   - component: {fileID: 587234339040307668}
+  - component: {fileID: 7383188628373829130}
+  - component: {fileID: 9162971151652109914}
   m_Layer: 0
   m_Name: BaseCharacter
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -196,7 +198,19 @@ MonoBehaviour:
     m_ActionId: 39820a08-fd53-46c0-be42-4910e405a310
     m_ActionName: TestMap/Look[/XboxOneGampadMacOSWireless/rightStick]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7383188628373829130}
+        m_TargetAssemblyTypeName: CharacterShooting, Assembly-CSharp
+        m_MethodName: OnShoot
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 86362123-77ef-4b83-9a7f-e8a9ba2d5d36
     m_ActionName: TestMap/Shoot[/XboxOneGampadMacOSWireless/rightTrigger]
   m_NeverAutoSwitchControlSchemes: 0
@@ -217,6 +231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _characterData: {fileID: 11400000, guid: 3cccbb59f87504f5999ad7e287de2a4e, type: 2}
+  _damage: 3
 --- !u!114 &587234339040307668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,6 +248,30 @@ MonoBehaviour:
   _jumpHeight: 1
   _gravity: -9.81
   _rotationSpeed: 13
+--- !u!114 &7383188628373829130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349687064382055248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c3feea76d82e4109a102d713bed60b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9162971151652109914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349687064382055248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2be4bc9c2393348a29ffd9527a655d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6325972250660242467
 GameObject:
   m_ObjectHideFlags: 0
