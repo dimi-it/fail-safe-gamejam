@@ -27,8 +27,7 @@ public class CharacterShooting : MonoBehaviour
     public void OnPortalEnter()
     {
         _rateOfFire = _characterMain.CharacterData.rateOfFire;
-        _damage = _characterMain.Damage;
-        _damagePerBullet = _damage / (float)_rateOfFire;
+        _damagePerBullet = _characterMain.CharacterData.damagePerBullet;
         _projectile = _characterMain.CharacterData.projectile;
         _projectileSpawnPoint = _characterMain.CharacterData.projectileSpawnPoint;
         _timerEnd = 1 / (float)_rateOfFire;

@@ -5,5 +5,5 @@ using UnityEngine.UI;
 
 public class PlayerIndicators : MonoBehaviour
 {
-
+    public List<PlayerIndicator> Indicators;
 }

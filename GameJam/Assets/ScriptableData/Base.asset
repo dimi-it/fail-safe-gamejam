@@ -15,3 +15,8 @@ MonoBehaviour:
   healt: 1
   speed: 1
   range: 1
+  rateOfFire: 0
+  damagePerBullet: 0
+  projectile: {fileID: 0}
+  projectileSpawnPoint: {x: 0, y: 0, z: 0}
+  roleLogo: {fileID: 21300000, guid: 10549f4817f0e0d47be8b9afba746a8e, type: 3}

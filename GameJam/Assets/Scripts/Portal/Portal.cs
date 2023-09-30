@@ -29,6 +29,7 @@ public class Portal : MonoBehaviour
         Debug.Log($"Enter {_isA.ToString()}");
         characterCollider.gameObject.GetComponent<CharacterMain>()
             .OnPortalEnter(_portalManager.GetOther(this));
+        
     }
 
     private void OnTriggerExit(Collider characterCollider)

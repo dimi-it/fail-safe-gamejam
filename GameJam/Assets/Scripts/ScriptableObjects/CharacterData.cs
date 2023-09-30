@@ -10,6 +10,9 @@ public class CharacterData : ScriptableObject
     public int speed;
     public int range;
     public int rateOfFire;
+    public int damagePerBullet;
     public GameObject projectile;
     public Vector3 projectileSpawnPoint;
+    public Sprite roleLogo;
+
 }
