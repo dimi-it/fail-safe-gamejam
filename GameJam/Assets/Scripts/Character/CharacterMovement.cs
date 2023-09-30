@@ -16,12 +16,15 @@ public class CharacterMovement : MonoBehaviour
     private float _characterSpeed;
     private bool _isGrounded;
     private Vector3 _movement;
+    private Vector3 _lookDirection;
     private bool _canDuplicate = true;
+    private GameObject _child;
 
     private void Start()
     {
         _controller = this.GetComponent<CharacterController>();
         _characterMain = this.GetComponent<CharacterMain>();
+        _child = this.transform.GetChild(0).gameObject;
         UpdateSpeed();
     }
 
@@ -34,11 +37,11 @@ public class CharacterMovement : MonoBehaviour
         }
         
         _controller.Move(_movement * (Time.deltaTime * _characterSpeed));
-
-        if (_movement != Vector3.zero)
-        {
-            gameObject.transform.forward = _movement;
-        }
+        
+        // if (_movement != Vector3.zero)
+        // {
+        //     gameObject.transform.forward = _movement;
+        // }
         
         // if (Input.GetButtonDown("Jump") && _isGrounded)
         // {
@@ -47,6 +50,11 @@ public class CharacterMovement : MonoBehaviour
         
         _velocity.y += _gravity * Time.deltaTime;
         _controller.Move(_velocity * Time.deltaTime);
+
+        if (_lookDirection != Vector3.zero)
+        {
+            _child.transform.forward = _lookDirection;
+        }
     }
     
     public void OnMove(InputAction.CallbackContext context)
@@ -54,6 +62,14 @@ public class CharacterMovement : MonoBehaviour
         Vector2 move = context.ReadValue<Vector2>();
         _movement.x = move.x;
         _movement.z = move.y;
+    }
+
+    public void OnLook(InputAction.CallbackContext context)
+    {
+        Vector2 look = context.ReadValue<Vector2>();
+        _lookDirection.x = look.x;
+        _lookDirection.z = look.y;
+        Debug.Log(_lookDirection.ToString());
     }
 
     public void OnPortalEnter(Portal exitPortal)

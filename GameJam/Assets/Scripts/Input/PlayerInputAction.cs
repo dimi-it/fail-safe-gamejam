@@ -35,6 +35,24 @@ public partial class @PlayerInputAction: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Look"",
+                    ""type"": ""Value"",
+                    ""id"": ""39820a08-fd53-46c0-be42-4910e405a310"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Shoot"",
+                    ""type"": ""Button"",
+                    ""id"": ""86362123-77ef-4b83-9a7f-e8a9ba2d5d36"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -103,6 +121,28 @@ public partial class @PlayerInputAction: IInputActionCollection2, IDisposable
                     ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""328989fe-595a-4918-a6b8-4bc18f09ee6b"",
+                    ""path"": ""<Gamepad>/rightStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Look"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9648e585-2861-42e0-bbab-11b5c1a8bb06"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Shoot"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -112,6 +152,8 @@ public partial class @PlayerInputAction: IInputActionCollection2, IDisposable
         // TestMap
         m_TestMap = asset.FindActionMap("TestMap", throwIfNotFound: true);
         m_TestMap_Move = m_TestMap.FindAction("Move", throwIfNotFound: true);
+        m_TestMap_Look = m_TestMap.FindAction("Look", throwIfNotFound: true);
+        m_TestMap_Shoot = m_TestMap.FindAction("Shoot", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -174,11 +216,15 @@ public partial class @PlayerInputAction: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_TestMap;
     private List<ITestMapActions> m_TestMapActionsCallbackInterfaces = new List<ITestMapActions>();
     private readonly InputAction m_TestMap_Move;
+    private readonly InputAction m_TestMap_Look;
+    private readonly InputAction m_TestMap_Shoot;
     public struct TestMapActions
     {
         private @PlayerInputAction m_Wrapper;
         public TestMapActions(@PlayerInputAction wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_TestMap_Move;
+        public InputAction @Look => m_Wrapper.m_TestMap_Look;
+        public InputAction @Shoot => m_Wrapper.m_TestMap_Shoot;
         public InputActionMap Get() { return m_Wrapper.m_TestMap; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -191,6 +237,12 @@ public partial class @PlayerInputAction: IInputActionCollection2, IDisposable
             @Move.started += instance.OnMove;
             @Move.performed += instance.OnMove;
             @Move.canceled += instance.OnMove;
+            @Look.started += instance.OnLook;
+            @Look.performed += instance.OnLook;
+            @Look.canceled += instance.OnLook;
+            @Shoot.started += instance.OnShoot;
+            @Shoot.performed += instance.OnShoot;
+            @Shoot.canceled += instance.OnShoot;
         }
 
         private void UnregisterCallbacks(ITestMapActions instance)
@@ -198,6 +250,12 @@ public partial class @PlayerInputAction: IInputActionCollection2, IDisposable
             @Move.started -= instance.OnMove;
             @Move.performed -= instance.OnMove;
             @Move.canceled -= instance.OnMove;
+            @Look.started -= instance.OnLook;
+            @Look.performed -= instance.OnLook;
+            @Look.canceled -= instance.OnLook;
+            @Shoot.started -= instance.OnShoot;
+            @Shoot.performed -= instance.OnShoot;
+            @Shoot.canceled -= instance.OnShoot;
         }
 
         public void RemoveCallbacks(ITestMapActions instance)
@@ -218,5 +276,7 @@ public partial class @PlayerInputAction: IInputActionCollection2, IDisposable
     public interface ITestMapActions
     {
         void OnMove(InputAction.CallbackContext context);
+        void OnLook(InputAction.CallbackContext context);
+        void OnShoot(InputAction.CallbackContext context);
     }
 }
