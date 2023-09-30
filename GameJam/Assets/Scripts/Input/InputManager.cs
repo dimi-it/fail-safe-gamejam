@@ -18,18 +18,18 @@ public class InputManager : MonoBehaviour, PlayerInputAction.ITestMapActions
         _playerInputAction = new PlayerInputAction();
         _playerInputAction.TestMap.SetCallbacks(this);
         _playerInputAction.TestMap.Enable();
-        Debug.Log("Input manager ENABLED");
+        // Debug.Log("Input manager ENABLED");
     }
 
     private void OnDisable()
     {
         _playerInputAction.TestMap.Disable();
-        Debug.Log("Input manager DISABLED");
+        // Debug.Log("Input manager DISABLED");
     }
 
     public void OnMove(InputAction.CallbackContext context)
     {
         OnMovePerformed?.Invoke(context.ReadValue<Vector2>());
-        Debug.Log(context.ReadValue<Vector2>().ToString());
+        // Debug.Log(context.ReadValue<Vector2>().ToString());
     }
 }
