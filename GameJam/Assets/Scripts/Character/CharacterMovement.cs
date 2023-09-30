@@ -4,19 +4,21 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 public class CharacterMovement : MonoBehaviour
 {
-    [SerializeField] private float _speed;
+    [SerializeField] private float _movementSpeed;
     [SerializeField] private float _jumpHeight;
     [SerializeField] private float _gravity = -9.81f;
+    [SerializeField] private float _rotationSpeed;
     private CharacterController _controller;
     private CharacterMain _characterMain;
     private Vector3 _velocity;
     private float _characterSpeed;
     private bool _isGrounded;
     private Vector3 _movement;
-    private Vector3 _lookDirection;
+    private Vector2 _lookDirection;
     private bool _canDuplicate = true;
     private GameObject _child;
 
@@ -51,10 +53,17 @@ public class CharacterMovement : MonoBehaviour
         _velocity.y += _gravity * Time.deltaTime;
         _controller.Move(_velocity * Time.deltaTime);
 
-        if (_lookDirection != Vector3.zero)
+        if (_lookDirection != Vector2.zero)
         {
-            _child.transform.forward = _lookDirection;
+            float targetRotation = Mathf.Atan2(_lookDirection.x, _lookDirection.y) * Mathf.Rad2Deg;
+            _child.transform.rotation = Quaternion
+                .Lerp(
+                    _child.transform.rotation, 
+                    Quaternion.Euler(0, targetRotation, 0), 
+                    _rotationSpeed * Time.deltaTime
+                    );
         }
+        
     }
     
     public void OnMove(InputAction.CallbackContext context)
@@ -66,10 +75,7 @@ public class CharacterMovement : MonoBehaviour
 
     public void OnLook(InputAction.CallbackContext context)
     {
-        Vector2 look = context.ReadValue<Vector2>();
-        _lookDirection.x = look.x;
-        _lookDirection.z = look.y;
-        Debug.Log(_lookDirection.ToString());
+        _lookDirection = context.ReadValue<Vector2>();
     }
 
     public void OnPortalEnter(Portal exitPortal)
@@ -93,6 +99,6 @@ public class CharacterMovement : MonoBehaviour
 
     private void UpdateSpeed()
     {
-        _characterSpeed = _speed * _characterMain.CharacterData.speed;
+        _characterSpeed = _movementSpeed * _characterMain.CharacterData.speed;
     }
 }
