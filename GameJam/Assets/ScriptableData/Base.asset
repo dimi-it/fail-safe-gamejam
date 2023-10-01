@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74416737a62f142c6a4cc4abf17ba4ab, type: 3}
   m_Name: Base
   m_EditorClassIdentifier: 
-  healt: 1
+  health: 1
   speed: 1
   range: 1
   rateOfFire: 0
@@ -20,3 +20,5 @@ MonoBehaviour:
   projectile: {fileID: 0}
   projectileSpawnPoint: {x: 0, y: 0, z: 0}
   roleLogo: {fileID: 21300000, guid: 10549f4817f0e0d47be8b9afba746a8e, type: 3}
+  characterMesh: {fileID: 3097414258081162512, guid: 88ba2b8b7bff948f29b8fc96664284c9, type: 3}
+  tag: Base

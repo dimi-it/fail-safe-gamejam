@@ -28,7 +28,7 @@ public class BarIcon : MonoBehaviour
     {
         if (this.id == id)
         {
-            maxHp = characterData.healt;
+            maxHp = characterData.health;
             currentHp = maxHp;
             UpdateHp();
         }

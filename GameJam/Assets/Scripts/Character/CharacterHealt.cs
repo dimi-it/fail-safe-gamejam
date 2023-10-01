@@ -13,7 +13,7 @@ public class CharacterHealt : MonoBehaviour
     private void Start()
     {
         _characterMain = this.GetComponent<CharacterMain>();
-        _healt = _characterMain.CharacterData.healt;
+        _healt = _characterMain.CharacterData.health;
     }
 
     public void DecreaseLife(float damage)
@@ -37,7 +37,7 @@ public class CharacterHealt : MonoBehaviour
 
     public void OnPortalEnter()
     {
-        _healt = _characterMain.CharacterData.healt;
+        _healt = _characterMain.CharacterData.health;
     }
     public void Kill()
     {

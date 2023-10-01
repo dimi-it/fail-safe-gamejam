@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Wall
   - TestTag
+  - Base
+  - Ninja
+  - Pirata
+  - Mecha
+  - Cowboy
   layers:
   - Default
   - TransparentFX
