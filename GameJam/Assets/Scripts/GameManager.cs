@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
             FindAnyObjectByType<CharacterHealt>(FindObjectsInactive.Exclude).Kill();
             FindAnyObjectByType<InGameUI>(FindObjectsInactive.Include).gameObject.SetActive(false);
             FindAnyObjectByType<EndGameUI>(FindObjectsInactive.Include).gameObject.SetActive(true);
-            Invoke(nameof(RestartGame), RestartDelay);
+            //Invoke(nameof(RestartGame), RestartDelay);
         }
     }
 
@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
         cxt.GetComponent<CharacterMain>().ID = PlayerCount - 1;
         if (PlayerCount == MaxPlayers)
         {
-            //Invoke(nameof(StartGame), StartDelay);
+            Invoke(nameof(StartGame), StartDelay);
         }
     }
     void StartGame()

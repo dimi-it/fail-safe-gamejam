@@ -1,0 +1,2703 @@
+fileFormatVersion: 2
+guid: 58790b41ea25e4c52b1a8dfccdc479d7
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Black
+    second: {fileID: 2100000, guid: a2520745e7c214075acd17b965635dc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Brows
+    second: {fileID: 2100000, guid: 136bf8fb250ac4e2b87cd3f3c5881aea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Bulb
+    second: {fileID: 2100000, guid: c1ebdc6a6d5514498babc666edf66141, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Bulb_Green
+    second: {fileID: 2100000, guid: 3d489a3030bfa453387f6f0be5d5b8a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Cornea
+    second: {fileID: 2100000, guid: c42d110f4b135417d9ee91f7cb3f96a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Eyeleash
+    second: {fileID: 2100000, guid: 13d9355d26f65469891a5b45ca92c5d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Gold
+    second: {fileID: 2100000, guid: eba4947f769834b1c8a2a7abcdb175bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Hair
+    second: {fileID: 2100000, guid: 71fa102893a9b41629d00ea4caaf68fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Laces
+    second: {fileID: 2100000, guid: f4f4d5ce7ea2549e5b46f7e37443c94a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Leather
+    second: {fileID: 2100000, guid: f9570e0eec86b41f79987b7a447ec202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Metale
+    second: {fileID: 2100000, guid: 25aa10ac0bf2b44d0a8e25a419072b02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Pupil
+    second: {fileID: 2100000, guid: ce1091acf481b49edb2a4637974d1297, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Shoes
+    second: {fileID: 2100000, guid: 89713e8e473c446ffa8647be51fd5740, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Shoes_Sole
+    second: {fileID: 2100000, guid: 2aeeb5f1e4df749a9906cc8e2306994f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Skin
+    second: {fileID: 2100000, guid: 01bc5b1d89a364e6fa27551c5e61db86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Teeth
+    second: {fileID: 2100000, guid: d9b2cc28aea294da3b05fe0dc22358e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ashlee_DEF__Tongue_Gum
+    second: {fileID: 2100000, guid: 5b10390ca7cdd4af283dbd718c2a7f1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: 5681c9403bf0f4dd6b250c7489b2b5b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Drum
+    second: {fileID: 2100000, guid: f80f8f1a5b06a42f4a4b8eb33df834ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GoldAccent
+    second: {fileID: 2100000, guid: 896668b5d6ac240c589fe7bc8a2f75f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodStock
+    second: {fileID: 2100000, guid: 782f696b61e124fbb803143d0bfe2afa, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 1
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CINEMA_4D_Main
+      takeName: CINEMA_4D_Main
+      internalID: -1498010087492872569
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Ashlee_RunCycle_01(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: revolver
+      parentName: Ashlee_RunCycle_01(Clone)
+      position: {x: 0.13727602, y: 0.93025815, z: 0.70274633}
+      rotation: {x: -0.34489438, y: -0.63761365, z: -0.34950757, w: 0.59358335}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Revolver
+      parentName: revolver
+      position: {x: -3.330669e-18, y: 0, z: -1.110223e-18}
+      rotation: {x: -3.1441863e-18, y: -1.3877788e-17, z: -2.1684043e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Null
+      parentName: Ashlee_RunCycle_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Character
+      parentName: Null
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Advanced_Biped_rig
+      parentName: Ashlee_DEF__Character
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Root_null
+      parentName: Ashlee_DEF__Advanced_Biped_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -1.2621775e-29, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Bind_null
+      parentName: Ashlee_DEF__Root_null
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__BD_Spine_01_jnt
+      parentName: Ashlee_DEF__Bind_null
+      position: {x: 0.00086859986, y: 0.753868, z: -0.030357763}
+      rotation: {x: 0.7071068, y: -2.1178342e-10, z: 6.210958e-10, w: 0.7071068}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Ashlee_DEF__R_BD_NB_Hip_jnt
+      parentName: Ashlee_DEF__BD_Spine_01_jnt
+      position: {x: 0.09618187, y: 0.036167946, z: 0.047179535}
+      rotation: {x: -0.0027101976, y: 0.9977691, z: -0.06670198, w: 0.0005982721}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000002}
+    - name: Ashlee_DEF__R_BD_NB_Knee_jnt
+      parentName: Ashlee_DEF__R_BD_NB_Hip_jnt
+      position: {x: 1.1226575e-14, y: -3.5527137e-15, z: -0.28102294}
+      rotation: {x: -0.17752598, y: 0.00022865758, z: 0.000061797444, w: 0.98411614}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_BD_NB_Ankle_jnt
+      parentName: Ashlee_DEF__R_BD_NB_Knee_jnt
+      position: {x: 2.220446e-15, y: -2.4087398e-14, z: -0.29642642}
+      rotation: {x: 0.5213943, y: 0.0010351974, z: 0.002492495, w: 0.8533116}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: Ashlee_DEF__R_BD_NB_Ball_jnt
+      parentName: Ashlee_DEF__R_BD_NB_Ankle_jnt
+      position: {x: 8.627765e-14, y: -1.0196288e-14, z: -0.18174553}
+      rotation: {x: 0.32385913, y: 0.000000028405335, z: 0.000000011525115, w: 0.94610536}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000007}
+    - name: Ashlee_DEF__R_BD_NB_Toes_jnt
+      parentName: Ashlee_DEF__R_BD_NB_Ball_jnt
+      position: {x: 2.3092638e-16, y: -1.5987211e-16, z: -0.09880006}
+      rotation: {x: -0.000000010941804, y: -0.9998408, z: -0.017848343, w: -0.0000000020508732}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Ashlee_DEF__L_BD_NB_Hip_jnt
+      parentName: Ashlee_DEF__BD_Spine_01_jnt
+      position: {x: -0.09791907, y: 0.024547556, z: 0.050933804}
+      rotation: {x: 0.0027245898, y: 0.9977691, z: -0.06670204, w: -0.0005999494}
+      scale: {x: 0.99999976, y: 1, z: 0.99999964}
+    - name: Ashlee_DEF__L_BD_NB_Knee_jnt
+      parentName: Ashlee_DEF__L_BD_NB_Hip_jnt
+      position: {x: 1.2815304e-14, y: -1.065814e-15, z: -0.28102294}
+      rotation: {x: -0.17752597, y: -0.00022864877, z: -0.00006178184, w: 0.9841161}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000002}
+    - name: Ashlee_DEF__L_BD_NB_Ankle_jnt
+      parentName: Ashlee_DEF__L_BD_NB_Knee_jnt
+      position: {x: -4.0631387e-13, y: 9.663381e-15, z: -0.29642642}
+      rotation: {x: 0.5213942, y: -0.001040452, z: -0.0025060906, w: 0.8533116}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000004}
+    - name: Ashlee_DEF__L_BD_NB_Ball_jnt
+      parentName: Ashlee_DEF__L_BD_NB_Ankle_jnt
+      position: {x: -3.8020696e-13, y: -7.744916e-15, z: -0.18174553}
+      rotation: {x: 0.323859, y: 0.000000037660353, z: 5.8207654e-11, w: 0.9461054}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Ashlee_DEF__L_BD_NB_Toes_jnt
+      parentName: Ashlee_DEF__L_BD_NB_Ball_jnt
+      position: {x: -3.9968027e-17, y: -5.684342e-16, z: -0.09880006}
+      rotation: {x: -0.0000000018353441, y: -0.99984074, z: -0.017848609, w: 6.074607e-10}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: Ashlee_DEF__BD_Pelvis_Base_jnt
+      parentName: Ashlee_DEF__BD_Spine_01_jnt
+      position: {x: -1.4654943e-16, y: 0, z: -2.842171e-16}
+      rotation: {x: -0.9999943, y: -0.0000000060391634, z: 0.0000000022162667, w: 0.003392905}
+      scale: {x: 1, y: 0.99999976, z: 0.9999999}
+    - name: Ashlee_DEF__BD_Pelvis_End_jnt
+      parentName: Ashlee_DEF__BD_Pelvis_Base_jnt
+      position: {x: -1.7763568e-17, y: 0, z: -0.11234389}
+      rotation: {x: 0.70470357, y: 0.000000004336973, z: 0.0000000025166549, w: 0.70950186}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Ashlee_DEF__BD_Spine_02_jnt
+      parentName: Ashlee_DEF__BD_Spine_01_jnt
+      position: {x: 8.881784e-18, y: -3.5527136e-17, z: -0.029890385}
+      rotation: {x: -0, y: -0, z: 1.3877786e-17, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: Ashlee_DEF__BD_Spine_03_jnt
+      parentName: Ashlee_DEF__BD_Spine_02_jnt
+      position: {x: -2.2204459e-17, y: 1.4210854e-16, z: -0.02988944}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: Ashlee_DEF__BD_Spine_04_jnt
+      parentName: Ashlee_DEF__BD_Spine_03_jnt
+      position: {x: 6.661338e-17, y: -0.0000000014164, z: -0.02988944}
+      rotation: {x: 4.5392667e-27, y: 3.2708866e-10, z: -0.0000000014551917, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Ashlee_DEF__BD_Chest_jnt
+      parentName: Ashlee_DEF__BD_Spine_04_jnt
+      position: {x: -1.4323744e-10, y: -0.00000000377975, z: -0.029890358}
+      rotation: {x: 0.00000000319002, y: 0.0029860134, z: -0.9999955, w: 0.000000007504555}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: Ashlee_DEF__R_BD_Collar_jnt
+      parentName: Ashlee_DEF__BD_Chest_jnt
+      position: {x: -0.036347747, y: -0.039321672, z: -0.12372103}
+      rotation: {x: 0.40065706, y: -0.53386074, z: 0.58376354, w: -0.46226278}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Ashlee_DEF__R_BD_Collar_Tip_jnt
+      parentName: Ashlee_DEF__R_BD_Collar_jnt
+      position: {x: -4.5830005e-15, y: -2.6489032e-13, z: -0.109704204}
+      rotation: {x: -0.04913551, y: -0.09862424, z: 0.026136616, w: 0.9935672}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Ashlee_DEF__R_BD_NB_Shoulder_jnt
+      parentName: Ashlee_DEF__R_BD_Collar_Tip_jnt
+      position: {x: -4.2632563e-16, y: -1.7053025e-15, z: 9.947598e-16}
+      rotation: {x: -0.05312086, y: 0.0024185588, z: 0.7020892, w: 0.7101008}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000002}
+    - name: Ashlee_DEF__R_BD_NB_Forearm_Twist_01_jnt
+      parentName: Ashlee_DEF__R_BD_NB_Shoulder_jnt
+      position: {x: -3.999993e-10, y: 0.00000004165354, z: -0.22498459}
+      rotation: {x: -0.01798314, y: -0.042651925, z: -0.7050321, w: 0.7076633}
+      scale: {x: 0.9999999, y: 1, z: 1.0000005}
+    - name: Ashlee_DEF__R_BD_NB_Forearm_Twist_02_jnt
+      parentName: Ashlee_DEF__R_BD_NB_Forearm_Twist_01_jnt
+      position: {x: 1.4210854e-16, y: 0, z: -0.09988585}
+      rotation: {x: 0.0000000074505797, y: 0.000000119209275, z: 0.0031270892, w: 0.9999952}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: Ashlee_DEF__R_BD_NB_Forearm_Twist_05_tip_jnt
+      parentName: Ashlee_DEF__R_BD_NB_Forearm_Twist_02_jnt
+      position: {x: 1.4210854e-16, y: -7.105427e-17, z: -0.099865876}
+      rotation: {x: 0.00000005518029, y: -0.0000001044573, z: 0.0031265407, w: 0.9999952}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Ashlee_DEF__R_BD_Wrist_01_jnt
+      parentName: Ashlee_DEF__R_BD_NB_Forearm_Twist_05_tip_jnt
+      position: {x: -0.000000007997989, y: 0.0000000018824753, z: -0.000019987405}
+      rotation: {x: -0.13427053, y: 0.06347614, z: 0.00000052877135, w: 0.98890966}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Ashlee_DEF__R_BD_Wrist_02_jnt
+      parentName: Ashlee_DEF__R_BD_Wrist_01_jnt
+      position: {x: -0.0000000016923857, y: 7.312216e-11, z: -0.061250977}
+      rotation: {x: -0.00000011920923, y: 0.7165542, z: 0.00000011920923, w: 0.69753134}
+      scale: {x: 1.0000005, y: 1, z: 1.0000001}
+    - name: Ashlee_DEF__R_BD_FK_Finger_Palm_Base_jnt_2
+      parentName: Ashlee_DEF__R_BD_Wrist_02_jnt
+      position: {x: -0.015701171, y: 0.023835965, z: -0.047066726}
+      rotation: {x: 0.024522545, y: -0.7149637, z: 0.028995376, w: 0.6981297}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999976}
+    - name: Ashlee_DEF__R_BD_FK_Finger_Base_jnt_2
+      parentName: Ashlee_DEF__R_BD_FK_Finger_Palm_Base_jnt_2
+      position: {x: 0.0000000015568993, y: -2.7444072e-10, z: -0.06368713}
+      rotation: {x: -0.144511, y: 0.01768311, z: 0.07793646, w: 0.98627067}
+      scale: {x: 0.99999976, y: 1.0000011, z: 0.9999993}
+    - name: Ashlee_DEF__R_BD_FK_Finger_Mid_jnt_2
+      parentName: Ashlee_DEF__R_BD_FK_Finger_Base_jnt_2
+      position: {x: -2.9629632e-11, y: -9.2725105e-10, z: -0.047551706}
+      rotation: {x: -0.05599645, y: 0.0003833173, z: -0.0017709297, w: 0.9984293}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1.0000002}
+    - name: Ashlee_DEF__R_BD_FK_Finger_Top_jnt_2
+      parentName: Ashlee_DEF__R_BD_FK_Finger_Mid_jnt_2
+      position: {x: -0.0000000038367314, y: -0.0000000041573798, z: -0.032801237}
+      rotation: {x: -0.10877844, y: 0.011735193, z: 0.00059972453, w: 0.99399656}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: Ashlee_DEF__R_BD_FK_Finger_End_jnt_2
+      parentName: Ashlee_DEF__R_BD_FK_Finger_Top_jnt_2
+      position: {x: 1.9895197e-15, y: -1.2789769e-15, z: -0.0497514}
+      rotation: {x: 0.003994813, y: 0.70709556, z: 0.0039947834, w: 0.7070954}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000002}
+    - name: Ashlee_DEF__R_BD_FK_Finger_Palm_Base_jnt_1
+      parentName: Ashlee_DEF__R_BD_Wrist_02_jnt
+      position: {x: -0.015467882, y: 0.03913067, z: -0.0011756946}
+      rotation: {x: 0.048109654, y: -0.737136, z: 0.05678443, w: 0.6716335}
+      scale: {x: 1.0000007, y: 1, z: 1.0000006}
+    - name: Ashlee_DEF__R_BD_FK_Finger_Base_jnt_1
+      parentName: Ashlee_DEF__R_BD_FK_Finger_Palm_Base_jnt_1
+      position: {x: -5.369711e-10, y: -0.0000000015149243, z: -0.072569184}
+      rotation: {x: -0.19710973, y: 0.0036269114, z: 0.0019848377, w: 0.9803727}
+      scale: {x: 0.99999976, y: 1.0000011, z: 0.9999989}
+    - name: Ashlee_DEF__R_BD_FK_Finger_Mid_jnt_1
+      parentName: Ashlee_DEF__R_BD_FK_Finger_Base_jnt_1
+      position: {x: -2.9842794e-15, y: -7.105427e-16, z: -0.051222224}
+      rotation: {x: -0.061492726, y: 0.00096735894, z: -0.0048016836, w: 0.9980956}
+      scale: {x: 1.0000004, y: 1, z: 1.0000004}
+    - name: Ashlee_DEF__R_BD_FK_Finger_Top_jnt_1
+      parentName: Ashlee_DEF__R_BD_FK_Finger_Mid_jnt_1
+      position: {x: -0.0000000042391686, y: -0.0000000061856835, z: -0.039744858}
+      rotation: {x: -0.08617396, y: 0.019080931, z: 0.00016238519, w: 0.9960974}
+      scale: {x: 1, y: 1, z: 1.0000004}
+    - name: Ashlee_DEF__R_BD_FK_Finger_End_jnt_1
+      parentName: Ashlee_DEF__R_BD_FK_Finger_Top_jnt_1
+      position: {x: 8.384404e-15, y: 2.1316282e-16, z: -0.05539673}
+      rotation: {x: 0.003994712, y: 0.7070954, z: 0.0039947084, w: 0.7070957}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999976}
+    - name: Ashlee_DEF__R_BD_FK_Finger_Palm_Base_jnt
+      parentName: Ashlee_DEF__R_BD_Wrist_02_jnt
+      position: {x: -0.015883673, y: 0.031481758, z: 0.04699886}
+      rotation: {x: -0.014560416, y: -0.76186454, z: -0.013059552, w: 0.64744097}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000002}
+    - name: Ashlee_DEF__R_BD_FK_Finger_Base_jnt
+      parentName: Ashlee_DEF__R_BD_FK_Finger_Palm_Base_jnt
+      position: {x: 5.7842126e-10, y: -4.346397e-11, z: -0.06756029}
+      rotation: {x: -0.028971314, y: 0.0020141595, z: -0.000568847, w: 0.9995781}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000007}
+    - name: Ashlee_DEF__R_BD_FK_Finger_Mid_jnt
+      parentName: Ashlee_DEF__R_BD_FK_Finger_Base_jnt
+      position: {x: -0.0000000013736924, y: -0.0000000032612313, z: -0.05464789}
+      rotation: {x: -0.08759775, y: -0.009635432, z: -0.001996529, w: 0.9961074}
+      scale: {x: 1.0000001, y: 1.0000013, z: 0.9999989}
+    - name: Ashlee_DEF__R_BD_FK_Finger_Top_jnt
+      parentName: Ashlee_DEF__R_BD_FK_Finger_Mid_jnt
+      position: {x: 0.0000000019700779, y: 0.0000000012280412, z: -0.03777807}
+      rotation: {x: -0.09627718, y: 0.015923573, z: -0.00028570433, w: 0.99522716}
+      scale: {x: 0.9999999, y: 0.99999964, z: 1.0000007}
+    - name: Ashlee_DEF__R_BD_FK_Finger_End_jnt
+      parentName: Ashlee_DEF__R_BD_FK_Finger_Top_jnt
+      position: {x: -1.563194e-15, y: -5.684342e-16, z: -0.041709237}
+      rotation: {x: 0.003994745, y: 0.7070956, z: 0.00399476, w: 0.70709544}
+      scale: {x: 0.99999964, y: 1, z: 1}
+    - name: Ashlee_DEF__R_BD_FK_Thumb_Root_jnt
+      parentName: Ashlee_DEF__R_BD_Wrist_02_jnt
+      position: {x: -0.03761247, y: 0.003922922, z: 0.022618541}
+      rotation: {x: -0.1753523, y: 0.9385348, z: 0.06324715, w: -0.29052344}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: Ashlee_DEF__R_BD_FK_Thumb_Base_jnt
+      parentName: Ashlee_DEF__R_BD_FK_Thumb_Root_jnt
+      position: {x: 3.2654504e-10, y: 7.2235806e-10, z: -0.062137716}
+      rotation: {x: -0.02376907, y: 0.018151475, z: -0.6336668, w: 0.7730279}
+      scale: {x: 0.99999976, y: 1.0000001, z: 0.9999993}
+    - name: Ashlee_DEF__R_BD_FK_Thumb_Mid_jnt
+      parentName: Ashlee_DEF__R_BD_FK_Thumb_Base_jnt
+      position: {x: 0.0000000011948718, y: -0.0000000022569155, z: -0.06701037}
+      rotation: {x: -0.029232673, y: -0.006254877, z: -0.08429845, w: 0.995992}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000004}
+    - name: Ashlee_DEF__R_BD_FK_Thumb_End_jnt
+      parentName: Ashlee_DEF__R_BD_FK_Thumb_Mid_jnt
+      position: {x: -1.3474277e-10, y: -5.6444235e-11, z: -0.053623106}
+      rotation: {x: 0.000000029802301, y: -0, z: -0.0000000046566098, w: 1}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.99999964}
+    - name: Ashlee_DEF__L_BD_Collar_jnt
+      parentName: Ashlee_DEF__BD_Chest_jnt
+      position: {x: 0.036347747, y: -0.039321672, z: -0.12372103}
+      rotation: {x: -0.40065706, y: -0.53386074, z: 0.58376354, w: 0.46226278}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1.0000002}
+    - name: Ashlee_DEF__L_BD_Collar_Tip_jnt
+      parentName: Ashlee_DEF__L_BD_Collar_jnt
+      position: {x: 1.4495072e-14, y: -2.7000624e-13, z: -0.109704204}
+      rotation: {x: -0.04724415, y: 0.07235655, z: -0.01507185, w: 0.9961453}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: Ashlee_DEF__L_BD_NB_Shoulder_jnt
+      parentName: Ashlee_DEF__L_BD_Collar_Tip_jnt
+      position: {x: -3.5527136e-17, y: 4.2632563e-16, z: -5.684342e-16}
+      rotation: {x: -0.053120784, y: -0.002418516, z: -0.7020893, w: 0.7101008}
+      scale: {x: 1, y: 1, z: 1.0000004}
+    - name: Ashlee_DEF__L_BD_NB_Forearm_Twist_01_jnt
+      parentName: Ashlee_DEF__L_BD_NB_Shoulder_jnt
+      position: {x: -7.035204e-10, y: 0.00000004110725, z: -0.22498457}
+      rotation: {x: -0.0154303275, y: 0.04109311, z: 0.70505375, w: 0.70779413}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000008}
+    - name: Ashlee_DEF__L_BD_NB_Forearm_Twist_02_jnt
+      parentName: Ashlee_DEF__L_BD_NB_Forearm_Twist_01_jnt
+      position: {x: -1.4673887e-10, y: 0.0000000014810131, z: -0.09988585}
+      rotation: {x: 0.00000001862645, y: -0.0000000074505797, z: -0.0031270473, w: 0.9999951}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000007}
+    - name: Ashlee_DEF__L_BD_NB_Forearm_Twist_05_tip_jnt
+      parentName: Ashlee_DEF__L_BD_NB_Forearm_Twist_02_jnt
+      position: {x: -2.842171e-16, y: 1.4210854e-16, z: -0.099865876}
+      rotation: {x: 0.0000001713744, y: -0.000000010698299, z: -0.0031266296, w: 0.9999951}
+      scale: {x: 1, y: 0.99999976, z: 0.99999976}
+    - name: Ashlee_DEF__L_BD_Wrist_01_jnt
+      parentName: Ashlee_DEF__L_BD_NB_Forearm_Twist_05_tip_jnt
+      position: {x: 0.000000018398111, y: -0.0000000011535053, z: -0.000019973852}
+      rotation: {x: -0.13427053, y: -0.06347614, z: -0.00000054193373, w: 0.9889096}
+      scale: {x: 0.99999964, y: 1.0000001, z: 1}
+    - name: Ashlee_DEF__L_BD_Wrist_02_jnt
+      parentName: Ashlee_DEF__L_BD_Wrist_01_jnt
+      position: {x: 0.0000000079986675, y: 0.0000000023896713, z: -0.061250977}
+      rotation: {x: -0.00000011175868, y: -0.7165543, z: 0.000000014901158, w: 0.6975314}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Ashlee_DEF__L_BD_FK_Finger_Palm_Base_jnt_2
+      parentName: Ashlee_DEF__L_BD_Wrist_02_jnt
+      position: {x: 0.01570117, y: 0.02383596, z: -0.047066715}
+      rotation: {x: 0.024522528, y: 0.7149637, z: -0.028995397, w: 0.6981296}
+      scale: {x: 0.99999976, y: 0.99999976, z: 0.9999994}
+    - name: Ashlee_DEF__L_BD_FK_Finger_Base_jnt_2
+      parentName: Ashlee_DEF__L_BD_FK_Finger_Palm_Base_jnt_2
+      position: {x: -4.973799e-16, y: -4.973799e-16, z: -0.06368713}
+      rotation: {x: -0.14451106, y: -0.017683323, z: -0.07793654, w: 0.98627067}
+      scale: {x: 1, y: 1.0000002, z: 1.0000007}
+    - name: Ashlee_DEF__L_BD_FK_Finger_Mid_jnt_2
+      parentName: Ashlee_DEF__L_BD_FK_Finger_Base_jnt_2
+      position: {x: 2.842171e-16, y: 4.2632563e-16, z: -0.04755171}
+      rotation: {x: -0.055996418, y: -0.00038328386, z: 0.0017709332, w: 0.9984293}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: Ashlee_DEF__L_BD_FK_Finger_Top_jnt_2
+      parentName: Ashlee_DEF__L_BD_FK_Finger_Mid_jnt_2
+      position: {x: 1.1368684e-15, y: -4.2632563e-16, z: -0.032801233}
+      rotation: {x: -0.10877844, y: -0.01173504, z: -0.00059964857, w: 0.99399656}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000005}
+    - name: Ashlee_DEF__L_BD_FK_Finger_End_jnt_2
+      parentName: Ashlee_DEF__L_BD_FK_Finger_Top_jnt_2
+      position: {x: -0.0000000040742836, y: -0.000000003509978, z: -0.0497514}
+      rotation: {x: 0.003994896, y: -0.70709556, z: -0.0039948514, w: 0.7070954}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: Ashlee_DEF__L_BD_FK_Finger_Palm_Base_jnt_1
+      parentName: Ashlee_DEF__L_BD_Wrist_02_jnt
+      position: {x: 0.01546788, y: 0.039130665, z: -0.0011756864}
+      rotation: {x: 0.048109747, y: 0.73713607, z: -0.05678459, w: 0.6716334}
+      scale: {x: 1.0000006, y: 1, z: 1.0000004}
+    - name: Ashlee_DEF__L_BD_FK_Finger_Base_jnt_1
+      parentName: Ashlee_DEF__L_BD_FK_Finger_Palm_Base_jnt_1
+      position: {x: -7.81597e-16, y: -1.4210854e-16, z: -0.07256919}
+      rotation: {x: -0.19710997, y: -0.003626971, z: -0.001984983, w: 0.98037267}
+      scale: {x: 0.99999976, y: 1, z: 0.99999976}
+    - name: Ashlee_DEF__L_BD_FK_Finger_Mid_jnt_1
+      parentName: Ashlee_DEF__L_BD_FK_Finger_Base_jnt_1
+      position: {x: 1.7763568e-15, y: -8.5265126e-16, z: -0.051222224}
+      rotation: {x: -0.06149265, y: -0.0009673552, z: 0.0048017674, w: 0.9980956}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.99999976}
+    - name: Ashlee_DEF__L_BD_FK_Finger_Top_jnt_1
+      parentName: Ashlee_DEF__L_BD_FK_Finger_Mid_jnt_1
+      position: {x: 1.7763568e-15, y: -9.947598e-16, z: -0.039744858}
+      rotation: {x: -0.08617399, y: -0.019080952, z: -0.00016237255, w: 0.99609745}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000006}
+    - name: Ashlee_DEF__L_BD_FK_Finger_End_jnt_1
+      parentName: Ashlee_DEF__L_BD_FK_Finger_Top_jnt_1
+      position: {x: -0.000000004655546, y: -0.0000000026713194, z: -0.05539672}
+      rotation: {x: 0.0039947387, y: -0.7070956, z: -0.0039949063, w: 0.70709544}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000001}
+    - name: Ashlee_DEF__L_BD_FK_Finger_Palm_Base_jnt
+      parentName: Ashlee_DEF__L_BD_Wrist_02_jnt
+      position: {x: 0.015883671, y: 0.031481754, z: 0.046998866}
+      rotation: {x: -0.014560537, y: 0.7618645, z: 0.013059533, w: 0.647441}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1}
+    - name: Ashlee_DEF__L_BD_FK_Finger_Base_jnt
+      parentName: Ashlee_DEF__L_BD_FK_Finger_Palm_Base_jnt
+      position: {x: 7.81597e-16, y: -1.4210854e-15, z: -0.06756029}
+      rotation: {x: -0.028971154, y: -0.002013981, z: 0.0005689067, w: 0.9995781}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: Ashlee_DEF__L_BD_FK_Finger_Mid_jnt
+      parentName: Ashlee_DEF__L_BD_FK_Finger_Base_jnt
+      position: {x: -0.0000000050195803, y: -0.000000001202613, z: -0.05464789}
+      rotation: {x: -0.0875978, y: 0.009635409, z: 0.0019965637, w: 0.9961074}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1.0000002}
+    - name: Ashlee_DEF__L_BD_FK_Finger_Top_jnt
+      parentName: Ashlee_DEF__L_BD_FK_Finger_Mid_jnt
+      position: {x: 0.000000009447972, y: 0.0000000022572735, z: -0.037778065}
+      rotation: {x: -0.09627718, y: -0.015923714, z: 0.00028571597, w: 0.99522716}
+      scale: {x: 1, y: 1.0000001, z: 1.0000006}
+    - name: Ashlee_DEF__L_BD_FK_Finger_End_jnt
+      parentName: Ashlee_DEF__L_BD_FK_Finger_Top_jnt
+      position: {x: 8.5265126e-16, y: 2.842171e-16, z: -0.041709237}
+      rotation: {x: 0.0039947527, y: -0.70709556, z: -0.00399479, w: 0.7070955}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999976}
+    - name: Ashlee_DEF__L_BD_FK_Thumb_Root_jnt
+      parentName: Ashlee_DEF__L_BD_Wrist_02_jnt
+      position: {x: 0.037612464, y: 0.0039229197, z: 0.022618549}
+      rotation: {x: 0.17703752, y: 0.93853366, z: 0.05668423, w: 0.29085943}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000002}
+    - name: Ashlee_DEF__L_BD_FK_Thumb_Base_jnt
+      parentName: Ashlee_DEF__L_BD_FK_Thumb_Root_jnt
+      position: {x: 0.000000004292492, y: -0.0000000013669819, z: -0.062137708}
+      rotation: {x: -0.023770176, y: -0.018151252, z: 0.6336668, w: 0.77302784}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1.0000001}
+    - name: Ashlee_DEF__L_BD_FK_Thumb_Mid_jnt
+      parentName: Ashlee_DEF__L_BD_FK_Thumb_Base_jnt
+      position: {x: 0.0000000014000926, y: 0.00000001370017, z: -0.06701038}
+      rotation: {x: -0.029232386, y: 0.0062553636, z: 0.08429823, w: 0.9959921}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: Ashlee_DEF__L_BD_FK_Thumb_End_jnt
+      parentName: Ashlee_DEF__L_BD_FK_Thumb_Mid_jnt
+      position: {x: 0.0000000016985332, y: -0.0000000027821063, z: -0.053623114}
+      rotation: {x: -0, y: -0.0000000037252885, z: -0.0000000018626443, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: Ashlee_DEF__BD_Neck_jnt
+      parentName: Ashlee_DEF__BD_Chest_jnt
+      position: {x: 3.2862602e-16, y: -1.4210854e-16, z: -0.2220357}
+      rotation: {x: 0.0000000012074017, y: 0.2417611, z: 0.9703359, w: 0.000000008786501}
+      scale: {x: 1, y: 1.0000004, z: 1.0000005}
+    - name: Ashlee_DEF__BD_Head_jnt
+      parentName: Ashlee_DEF__BD_Neck_jnt
+      position: {x: -1.0658141e-16, y: -1.4210854e-16, z: -0.087100506}
+      rotation: {x: -0.2967697, y: 0.0000000019798618, z: 0.0000000018375059, w: 0.9549491}
+      scale: {x: 1, y: 1.0000001, z: 0.99999976}
+    - name: Ashlee_DEF__BD_Jaw_jnt
+      parentName: Ashlee_DEF__BD_Head_jnt
+      position: {x: -1.6495139e-15, y: 0.07332805, z: -0.063955896}
+      rotation: {x: -1.00527356e-11, y: 0.86664045, z: -0.49893314, w: -9.47331e-12}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Ashlee_DEF__BD_Jaw_Tip_jnt
+      parentName: Ashlee_DEF__BD_Jaw_jnt
+      position: {x: -4.8572257e-17, y: 1.1368684e-15, z: -0.18273486}
+      rotation: {x: 1.7746221e-15, y: -0.9892613, z: -0.14615795, w: -1.2368578e-14}
+      scale: {x: 0.99999976, y: 1.0000001, z: 0.9999999}
+    - name: Ashlee_DEF__BD_Head_Tip_jnt
+      parentName: Ashlee_DEF__BD_Head_jnt
+      position: {x: 8.5015326e-16, y: -7.105427e-16, z: -0.62170327}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: Ashlee_DEF__Master_con_
+      parentName: Ashlee_DEF__Root_null
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Layout_con_
+      parentName: Ashlee_DEF__Master_con_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -9.62965e-35, y: -2.1684043e-19, z: 4.440892e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_IK_Leg_nb_con_
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: 0.0859183, y: 0.5626468, z: 0.1212236}
+      rotation: {x: 0.72906035, y: -0.05317905, z: -0.05701628, w: 0.6799942}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Leg_nulls
+      parentName: Ashlee_DEF__R_IK_Leg_nb_con_
+      position: {x: 0.09515443, y: -0.1167466, z: 0.09383191}
+      rotation: {x: -6.938894e-18, y: 2.332661e-16, z: -1.3444107e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Ball_Twist_null
+      parentName: Ashlee_DEF__R_NB_Leg_nulls
+      position: {x: -0.09534473, y: 0.0000000028414944, z: 0.045548867}
+      rotation: {x: 6.911907e-36, y: -2.6562953e-18, z: 2.6020852e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Ball_Rock_Outer_null
+      parentName: Ashlee_DEF__R_NB_Ball_Twist_null
+      position: {x: 0.080866374, y: -0.0019322125, z: -0.04589241}
+      rotation: {x: 0.000000012904784, y: 1, z: -6.123236e-17, w: 1.6591004e-15}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Ball_Rock_Inner_null
+      parentName: Ashlee_DEF__R_NB_Ball_Rock_Outer_null
+      position: {x: 0.16671973, y: 3.7248543e-10, z: -0.09307812}
+      rotation: {x: 6.629788e-36, y: 7.643625e-18, z: -8.6736174e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Heel_Rot_null
+      parentName: Ashlee_DEF__R_NB_Ball_Rock_Inner_null
+      position: {x: -0.078906104, y: -0.008833446, z: 0.22419816}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -3.5832882e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Toe_Pivot_null
+      parentName: Ashlee_DEF__R_NB_Heel_Rot_null
+      position: {x: 0.0069472683, y: 0.007232277, z: 0.27594706}
+      rotation: {x: -6.938894e-18, y: -6.884684e-18, z: 8.6736174e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Ball_goal
+      parentName: Ashlee_DEF__R_NB_Toe_Pivot_null
+      position: {x: -2.4413835e-10, y: 0.0035333785, z: -0.09893459}
+      rotation: {x: 1.179612e-16, y: 3.7947076e-17, z: 4.3368087e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Ankle_Tip_goal
+      parentName: Ashlee_DEF__R_NB_Ball_goal
+      position: {x: -8.4131113e-10, y: 0.11690528, z: -0.13956843}
+      rotation: {x: 1.3877788e-17, y: -4.054916e-17, z: 1.7347235e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Ankle_upv_targ
+      parentName: Ashlee_DEF__R_NB_IK_Ankle_Tip_goal
+      position: {x: -0.0000000014879907, y: -0.082846865, z: -0.047191255}
+      rotation: {x: -3.9895695e-10, y: 0.9666745, z: 0.2560086, w: 0.00000000150644}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Toe_Wiggle_null
+      parentName: Ashlee_DEF__R_NB_Heel_Rot_null
+      position: {x: 0.0069472673, y: 0.010765655, z: 0.17701246}
+      rotation: {x: -1.179612e-16, y: -2.1304573e-17, z: -5.2041704e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Ball_upv_targ
+      parentName: Ashlee_DEF__R_NB_Toe_Wiggle_null
+      position: {x: -0.000000001462553, y: -0.095283985, z: -0.0034029996}
+      rotation: {x: -3.515107e-11, y: 0.99984074, z: 0.01784861, w: 0.000000001969091}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Toe_goal
+      parentName: Ashlee_DEF__R_NB_Toe_Wiggle_null
+      position: {x: 2.4477617e-10, y: -0.0035333785, z: 0.09893459}
+      rotation: {x: 3.7803898e-35, y: 2.1792464e-17, z: -1.7347235e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Foot_nb_con_
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: 0.094483376, y: 0.76018393, z: 0.20347935}
+      rotation: {x: 4.440892e-16, y: 1.4210855e-14, z: -6.3108872e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_IK_Leg_nb_con_
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: -0.09724234, y: 0.12541781, z: -0.028916778}
+      rotation: {x: 6.617445e-24, y: 8.881784e-16, z: 0.000000007450581, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Leg_nulls
+      parentName: Ashlee_DEF__L_IK_Leg_nb_con_
+      position: {x: -0.09515443, y: -0.11674658, z: 0.09383191}
+      rotation: {x: 1.469368e-39, y: -1.1656845e-16, z: -2.0413621e-38, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Ball_Twist_null
+      parentName: Ashlee_DEF__L_NB_Leg_nulls
+      position: {x: 0.09534473, y: -2.0539125e-16, z: 0.045548867}
+      rotation: {x: -1.469368e-39, y: 9.8607613e-32, z: 1.6543612e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Ball_Rock_Outer_null
+      parentName: Ashlee_DEF__L_NB_Ball_Twist_null
+      position: {x: -0.080866374, y: -0.0019322102, z: -0.04589241}
+      rotation: {x: 2.938736e-39, y: -9.8607613e-32, z: -1.6543612e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Ball_Rock_Inner_null
+      parentName: Ashlee_DEF__L_NB_Ball_Rock_Outer_null
+      position: {x: 0.16671973, y: -2.9321132e-10, z: 0.09307812}
+      rotation: {x: -2.938736e-39, y: 9.8607613e-32, z: 1.6543612e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Heel_Rot_null
+      parentName: Ashlee_DEF__L_NB_Ball_Rock_Inner_null
+      position: {x: -0.078906104, y: -0.008833445, z: -0.22419816}
+      rotation: {x: 2.938736e-39, y: -9.8607613e-32, z: -1.6543612e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Toe_Pivot_null
+      parentName: Ashlee_DEF__L_NB_Heel_Rot_null
+      position: {x: -0.006947267, y: 0.007232277, z: 0.27594706}
+      rotation: {x: 0.15643446, y: 2.587991e-25, z: 1.6339933e-24, w: 0.98768836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Ball_goal
+      parentName: Ashlee_DEF__L_NB_Toe_Pivot_null
+      position: {x: -5.5993404e-10, y: 0.0035333785, z: -0.09893459}
+      rotation: {x: 0.2469139, y: 8.1697004e-25, z: 3.2062758e-24, w: 0.9690374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Ankle_Tip_goal
+      parentName: Ashlee_DEF__L_NB_Ball_goal
+      position: {x: 0.000000001115145, y: 0.11690528, z: -0.13956843}
+      rotation: {x: 3.9672934e-38, y: -2.9582284e-31, z: -2.0413621e-38, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Ankle_upv_targ
+      parentName: Ashlee_DEF__L_NB_IK_Ankle_Tip_goal
+      position: {x: -0.0000000014879906, y: -0.082846865, z: -0.047191255}
+      rotation: {x: -3.9895728e-10, y: 0.9666745, z: 0.2560086, w: 0.0000000015064412}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Toe_Wiggle_null
+      parentName: Ashlee_DEF__L_NB_Heel_Rot_null
+      position: {x: -0.0069472673, y: 0.010765655, z: 0.17701246}
+      rotation: {x: 1.469368e-39, y: 1.9721523e-31, z: 3.3087225e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Ball_upv_targ
+      parentName: Ashlee_DEF__L_NB_Toe_Wiggle_null
+      position: {x: -0.000000001462553, y: -0.095283985, z: -0.0034029996}
+      rotation: {x: 3.3878598e-11, y: 0.99984074, z: 0.01784861, w: -0.000000001897803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Toe_goal
+      parentName: Ashlee_DEF__L_NB_Toe_Wiggle_null
+      position: {x: 5.590394e-10, y: -0.0035333785, z: 0.09893459}
+      rotation: {x: 0, y: 0, z: -1.6543612e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Foot_nb_con_
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: -0.15334794, y: 0.50272536, z: -0.21906397}
+      rotation: {x: 4.440892e-16, y: 1.4210855e-14, z: -6.3108872e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_PV_Free_Follow_targ
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: 0.30732697, y: 0.8664439, z: -0.17916122}
+      rotation: {x: 0.7071068, y: 5.229459e-32, z: -5.229459e-32, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Collar_algn
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: -0.013180665, y: 1.0428109, z: 0.33005524}
+      rotation: {x: 0.21391517, y: 0.089502946, z: -0.008177999, w: 0.97270894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_IK_Arm_nb_con_
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: 0.2161783, y: 0.84114224, z: 0.4191647}
+      rotation: {x: 0.5128839, y: 0.857083, z: -0.002125796, w: 0.048521873}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_IK_Wrist_nb_Tip_targ_goal
+      parentName: Ashlee_DEF__R_IK_Arm_nb_con_
+      position: {x: 7.105427e-17, y: 4.973799e-16, z: 2.1316282e-16}
+      rotation: {x: -0.0005398388, y: -0.00027674175, z: -0.0009201904, w: 0.9999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_PV_Follow_algn
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: 0.30732697, y: 0.8664439, z: -0.17916122}
+      rotation: {x: 0.7071068, y: 5.229459e-32, z: -5.229459e-32, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_PV_con_
+      parentName: Ashlee_DEF__R_PV_Follow_algn
+      position: {x: 0.040153954, y: 0.0131408665, z: -0.1309202}
+      rotation: {x: -0, y: -4.440892e-16, z: -2.4700052e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Bicep_pole
+      parentName: Ashlee_DEF__R_PV_con_
+      position: {x: -0.040153954, y: -0.0131408665, z: 0.1309202}
+      rotation: {x: 0, y: -1.23139146e-32, z: 4.814825e-35, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_IK_Bicep_pole
+      parentName: Ashlee_DEF__R_PV_con_
+      position: {x: -0.040153954, y: -0.0131408665, z: 0.1309202}
+      rotation: {x: 0, y: -1.23139146e-32, z: 4.814825e-35, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Root_algn
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: 0.09189492, y: 1.066288, z: 0.3090086}
+      rotation: {x: -0.035318628, y: -0.009355011, z: -0.300002, w: 0.9532386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Shoulder_con_
+      parentName: Ashlee_DEF__R_FK_Root_algn
+      position: {x: 2.842171e-16, y: -2.842171e-16, z: 0}
+      rotation: {x: -0.47244877, y: -0.47244877, z: 0.5261105, w: 0.5261105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Elbow_con_
+      parentName: Ashlee_DEF__R_FK_Shoulder_con_
+      position: {x: -1.3364967e-10, y: 1.9129054e-11, z: -0.22498459}
+      rotation: {x: -0.108343355, y: -0.00026580662, z: -0.000028976227, w: 0.9941135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Bicep_pole
+      parentName: Ashlee_DEF__R_FK_Elbow_con_
+      position: {x: 0.2494549, y: 0.09625867, z: 0.35606304}
+      rotation: {x: 0.6810171, y: 0.33197615, z: -0.32203388, w: 0.56771624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_pos_rot_algn
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: 0.10209896, y: 1.1307954, z: 0.28264815}
+      rotation: {x: 0.12621997, y: 0.13449313, z: -0.22719012, w: 0.9562242}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_pos_algn
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: 0.10209896, y: 1.1307954, z: 0.28264815}
+      rotation: {x: -0.035318628, y: -0.009355011, z: -0.300002, w: 0.9532386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_PV_Free_Follow_targ
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: -0.30732697, y: 0.8664439, z: -0.17916122}
+      rotation: {x: 0.7071068, y: 5.229459e-32, z: -5.229459e-32, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Collar_algn
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: -0.08527015, y: 1.0456829, z: 0.33897105}
+      rotation: {x: 0.20959884, y: 0.022090776, z: -0.05655578, w: 0.97590053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_IK_Arm_nb_con_
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: -0.33468089, y: 0.78859967, z: 0.54544014}
+      rotation: {x: -0.6027146, y: 0.7728996, z: 0.18290235, w: 0.07686385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_IK_Wrist_nb_Tip_targ_goal
+      parentName: Ashlee_DEF__L_IK_Arm_nb_con_
+      position: {x: -0, y: 7.105427e-16, z: 1.4210854e-16}
+      rotation: {x: -0.0005398388, y: 0.00027674175, z: 0.0009201904, w: 0.9999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_PV_Follow_algn
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: -0.30732697, y: 0.8664439, z: -0.17916122}
+      rotation: {x: 0.7071068, y: 5.229459e-32, z: -5.229459e-32, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_PV_con_
+      parentName: Ashlee_DEF__L_PV_Follow_algn
+      position: {x: -0.111443736, y: 0.009811208, z: -0.15465519}
+      rotation: {x: -0, y: -4.440892e-16, z: -2.4700052e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Bicep_pole
+      parentName: Ashlee_DEF__L_PV_con_
+      position: {x: 0.04015396, y: -0.013140866, z: 0.1309202}
+      rotation: {x: 0, y: -1.23139146e-32, z: 4.814825e-35, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_IK_Bicep_pole
+      parentName: Ashlee_DEF__L_PV_con_
+      position: {x: 0.04015396, y: -0.013140866, z: 0.1309202}
+      rotation: {x: 0, y: -1.23139146e-32, z: 4.814825e-35, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Root_algn
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: -0.18690558, y: 1.0716776, z: 0.3710574}
+      rotation: {x: -0.03531863, y: 0.009355011, z: 0.300002, w: 0.9532386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Shoulder_con_
+      parentName: Ashlee_DEF__L_FK_Root_algn
+      position: {x: -1.6342482e-15, y: -7.105427e-16, z: -1.4210854e-16}
+      rotation: {x: -0.47244877, y: 0.47244877, z: -0.5261105, w: 0.5261105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Elbow_con_
+      parentName: Ashlee_DEF__L_FK_Shoulder_con_
+      position: {x: -1.0352295e-10, y: -1.8670078e-11, z: -0.22498459}
+      rotation: {x: -0.108343355, y: 0.0002658079, z: 0.000028969045, w: 0.9941135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Bicep_pole
+      parentName: Ashlee_DEF__L_FK_Elbow_con_
+      position: {x: -0.2494549, y: 0.09625867, z: 0.35606304}
+      rotation: {x: 0.6810171, y: -0.33197615, z: 0.3220339, w: 0.56771624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_pos_rot_algn
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: -0.16252576, y: 1.094819, z: 0.3840792}
+      rotation: {x: 0.24920876, y: 0.24787651, z: 0.2797896, w: 0.8934036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_pos_algn
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: -0.16252576, y: 1.094819, z: 0.3840792}
+      rotation: {x: -0.03531863, y: 0.009355011, z: 0.300002, w: 0.9532386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Torso_con_
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: -0.057345837, y: 0.7794662, z: 0.19356656}
+      rotation: {x: 0.80736685, y: -0.017777175, z: 0.043285225, w: 0.5881915}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__FK_Spine_01_con_
+      parentName: Ashlee_DEF__Torso_con_
+      position: {x: -4.440892e-18, y: 0, z: -0.05829131}
+      rotation: {x: 1.0448734e-16, y: -0.009656597, z: -0.029889565, w: 0.9995066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__FK_Spine_02_con_
+      parentName: Ashlee_DEF__FK_Spine_01_con_
+      position: {x: 1.3766766e-16, y: 0.0000000028328444, z: -0.059779823}
+      rotation: {x: -2.7755576e-17, y: -1.7347235e-18, z: -1.7347235e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__FK_Pelvis_con_
+      parentName: Ashlee_DEF__Torso_con_
+      position: {x: -4.440892e-18, y: 0, z: -0.05829131}
+      rotation: {x: 8.326673e-17, y: -7.2858386e-17, z: -1.2490009e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Hips_con_
+      parentName: Ashlee_DEF__Torso_con_
+      position: {x: -4.440892e-18, y: 0, z: -0.05829131}
+      rotation: {x: 3.8857806e-16, y: -5.1347815e-16, z: -4.1633363e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Chest_con_
+      parentName: Ashlee_DEF__Torso_con_
+      position: {x: -4.440892e-18, y: -1.4210854e-16, z: -0.17785096}
+      rotation: {x: 3.8857806e-16, y: -5.117434e-16, z: 1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Neck_algn
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: -0.044369176, y: 1.1498926, z: 0.339747}
+      rotation: {x: 0.96157295, y: -0.002641788, z: -0.06450682, w: 0.26685092}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Head_pos_algn
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: -0.033455685, y: 1.1941646, z: 0.41395867}
+      rotation: {x: 0.7071068, y: -8.659561e-17, z: 8.659561e-17, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Head_pos_rot_algn
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: -0.026155313, y: 1.2412578, z: 0.40276748}
+      rotation: {x: 0.8230757, y: 0.12094599, z: -0.07931436, w: 0.54920644}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Head_algn
+      parentName: Ashlee_DEF__Layout_con_
+      position: {x: -0.033455685, y: 1.1941646, z: 0.41395867}
+      rotation: {x: 0.7071068, y: 5.229459e-32, z: -5.229459e-32, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Head_con_
+      parentName: Ashlee_DEF__Head_algn
+      position: {x: -0, y: 0, z: 2.842171e-16}
+      rotation: {x: 0.12347867, y: -5.0145446e-16, z: 6.239643e-17, w: 0.99234724}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Spine_null
+      parentName: Ashlee_DEF__Root_null
+      position: {x: -1.860134e-29, y: 0.73697215, z: -0.0034882387}
+      rotation: {x: 0, y: 0, z: -1.2621775e-29, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__IK_Spine_null
+      parentName: Ashlee_DEF__Spine_null
+      position: {x: -0, y: 0.005232358, z: 0.0034882387}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__IK_Pelvis_algn
+      parentName: Ashlee_DEF__IK_Spine_null
+      position: {x: -0.060201023, y: 0.09271489, z: 0.21130545}
+      rotation: {x: 0.80736685, y: -0.017777171, z: 0.043285225, w: 0.58819145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__IK_Pelvis_01_jnt
+      parentName: Ashlee_DEF__IK_Pelvis_algn
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.9999943, y: -2.7708332e-17, z: 1.397188e-17, w: -0.00339285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__IK_Pelvis_02_jnt
+      parentName: Ashlee_DEF__IK_Pelvis_01_jnt
+      position: {x: -0, y: 3.5527136e-17, z: -0.11234389}
+      rotation: {x: 0.7047036, y: -1.2241306e-17, z: -7.401384e-18, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__IK_Spine_01_jnt
+      parentName: Ashlee_DEF__IK_Spine_null
+      position: {x: -0.060201023, y: 0.09271489, z: 0.21130545}
+      rotation: {x: 0.80736685, y: -0.017777171, z: 0.043285225, w: 0.58819145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__IK_Spine_02_jnt
+      parentName: Ashlee_DEF__IK_Spine_01_jnt
+      position: {x: -1.7763568e-17, y: -3.5527136e-17, z: -0.029890385}
+      rotation: {x: -9.714451e-16, y: 4.718448e-16, z: 4.1633363e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__IK_Spine_03_jnt
+      parentName: Ashlee_DEF__IK_Spine_02_jnt
+      position: {x: -8.881784e-18, y: 1.0658141e-16, z: -0.02988944}
+      rotation: {x: -4.9960036e-16, y: 4.57967e-16, z: 1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__IK_Spine_04_jnt
+      parentName: Ashlee_DEF__IK_Spine_03_jnt
+      position: {x: 8.881784e-18, y: -1.0658141e-16, z: -0.02988944}
+      rotation: {x: 8.6042284e-16, y: -2.6020852e-16, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__IK_Spine_05_jnt
+      parentName: Ashlee_DEF__IK_Spine_04_jnt
+      position: {x: -0, y: 0, z: -0.029878434}
+      rotation: {x: 6.661338e-16, y: -6.0368377e-16, z: -8.326673e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__FK_Spine_null
+      parentName: Ashlee_DEF__Spine_null
+      position: {x: -0, y: 0.005232358, z: 0.0034882387}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__FK_Pelvis_algn
+      parentName: Ashlee_DEF__FK_Spine_null
+      position: {x: -0.060201023, y: 0.09271489, z: 0.21130545}
+      rotation: {x: 0.80736685, y: -0.017777171, z: 0.043285225, w: 0.58819145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__FK_Pelvis_01_jnt
+      parentName: Ashlee_DEF__FK_Pelvis_algn
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.9999943, y: -2.7355192e-17, z: 1.180547e-16, w: -0.00339285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__FKPelvis_02_jnt
+      parentName: Ashlee_DEF__FK_Pelvis_01_jnt
+      position: {x: -0, y: 3.5527136e-17, z: -0.11234389}
+      rotation: {x: 0.7047036, y: -4.9231577e-18, z: 4.8898637e-18, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__FK_Spine_01_jnt
+      parentName: Ashlee_DEF__FK_Spine_null
+      position: {x: -0.060201023, y: 0.09271489, z: 0.21130545}
+      rotation: {x: 0.8079178, y: 0.00068351155, z: 0.017886665, w: 0.58902335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__FK_Spine_02_jnt
+      parentName: Ashlee_DEF__FK_Spine_01_jnt
+      position: {x: 2.2204459e-17, y: -1.0658141e-16, z: -0.029890385}
+      rotation: {x: -2.7755576e-17, y: 1.7347235e-18, z: 6.938894e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__FK_Spine_03_jnt
+      parentName: Ashlee_DEF__FK_Spine_02_jnt
+      position: {x: -1.3322676e-17, y: -3.5527136e-17, z: -0.02988944}
+      rotation: {x: -1.110223e-16, y: -4.4495657e-16, z: -1.2663481e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__FK_Spine_04_jnt
+      parentName: Ashlee_DEF__FK_Spine_03_jnt
+      position: {x: 5.3290704e-17, y: -0.0000000014163999, z: -0.02988944}
+      rotation: {x: -0.000000007450581, y: -7.806256e-18, z: -5.8161137e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__FK_Spine_05_jnt
+      parentName: Ashlee_DEF__FK_Spine_04_jnt
+      position: {x: 7.9936054e-17, y: -9.710435e-10, z: -0.029890358}
+      rotation: {x: 0.05813283, y: -0.055988856, z: -0.059263162, w: 0.99497426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Blend_Spine_null
+      parentName: Ashlee_DEF__Spine_null
+      position: {x: -0, y: 0.005232358, z: 0.0034882387}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Blend_Pelvis_algn
+      parentName: Ashlee_DEF__Blend_Spine_null
+      position: {x: -0.060201023, y: 0.09271489, z: 0.21130545}
+      rotation: {x: 0.80736685, y: -0.017777171, z: 0.043285225, w: 0.58819145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__BLND_Pelvis_Base_jnt
+      parentName: Ashlee_DEF__Blend_Pelvis_algn
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.9999943, y: -1.3453941e-17, z: 1.2494647e-16, w: -0.00339285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Hip_algn
+      parentName: Ashlee_DEF__BLND_Pelvis_Base_jnt
+      position: {x: 0.097242355, y: -0.030715851, z: -0.048840974}
+      rotation: {x: 0.00042208744, y: 0.069622666, z: 0.99756956, w: 0.0027456607}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Hip_con_
+      parentName: Ashlee_DEF__R_FK_Hip_algn
+      position: {x: -1.7763568e-17, y: -1.9539925e-16, z: 1.1368684e-15}
+      rotation: {x: 4.580979e-15, y: 0.000000019848406, z: 0.00000005866593, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Knee_con_
+      parentName: Ashlee_DEF__R_FK_Hip_con_
+      position: {x: -0.0000013862281, y: -0.0000030410563, z: -0.28104556}
+      rotation: {x: -0.17630802, y: 0.00022873131, z: 0.0000761061, w: 0.98433506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Ankle_con_
+      parentName: Ashlee_DEF__R_FK_Knee_con_
+      position: {x: -1.2859047e-13, y: 2.1316282e-16, z: -0.29642642}
+      rotation: {x: -0.0020990635, y: 0.6244662, z: 0.78104717, w: -0.001699713}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Hip_algn
+      parentName: Ashlee_DEF__BLND_Pelvis_Base_jnt
+      position: {x: -0.097242355, y: -0.030715851, z: -0.048840974}
+      rotation: {x: -0.00042208773, y: 0.069622666, z: 0.99756956, w: -0.0027456607}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Hip_con_
+      parentName: Ashlee_DEF__L_FK_Hip_algn
+      position: {x: 1.5987211e-15, y: 8.5993434e-14, z: -2.0321521e-14}
+      rotation: {x: 4.52546e-15, y: 0.000000019848539, z: 0.00000005866593, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Knee_con_
+      parentName: Ashlee_DEF__L_FK_Hip_con_
+      position: {x: 0.0000014085381, y: -0.0000030410565, z: -0.28104556}
+      rotation: {x: -0.17630802, y: -0.00022874238, z: -0.00007610498, w: 0.98433506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Ankle_con_
+      parentName: Ashlee_DEF__L_FK_Knee_con_
+      position: {x: -7.26974e-14, y: 3.1974422e-16, z: -0.29642642}
+      rotation: {x: 0.0020991515, y: 0.6244662, z: 0.78104717, w: 0.0016998001}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_targ
+      parentName: Ashlee_DEF__BLND_Pelvis_Base_jnt
+      position: {x: -0.07615719, y: 0.0008039922, z: -0.3329306}
+      rotation: {x: 0.7047036, y: -1.0561178e-13, z: 1.0495623e-13, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_IK_targ
+      parentName: Ashlee_DEF__BLND_Pelvis_Base_jnt
+      position: {x: -0.07615719, y: 0.00096711016, z: -0.04905597}
+      rotation: {x: -2.75529e-17, y: 0.112155735, z: 0.99369067, w: -5.8511296e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__BLND_Pelvis_End_jnt
+      parentName: Ashlee_DEF__BLND_Pelvis_Base_jnt
+      position: {x: -0, y: 0, z: -0.11234389}
+      rotation: {x: 0.7047036, y: 2.4482612e-17, z: 1.4802768e-17, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Leg_no_bendy_null
+      parentName: Ashlee_DEF__BLND_Pelvis_Base_jnt
+      position: {x: -0.07615719, y: 0.00096711016, z: -0.04905597}
+      rotation: {x: 0.7047036, y: -1.453279e-12, z: 1.4621696e-12, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Ankle_drvr
+      parentName: Ashlee_DEF__L_NB_Leg_no_bendy_null
+      position: {x: 0.016208826, y: -0.56558543, z: 0.092619486}
+      rotation: {x: 0.0030414334, y: 0.8258534, z: 0.5638195, w: 0.008029253}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Ankle_algn
+      parentName: Ashlee_DEF__L_FK_Ankle_drvr
+      position: {x: 0.000000007399576, y: -1.1525003e-12, z: 2.042988e-12}
+      rotation: {x: -0.0000000012562328, y: 0.9666745, z: 0.2560086, w: 0.000000004743466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Leg_algn
+      parentName: Ashlee_DEF__L_NB_Leg_no_bendy_null
+      position: {x: -0.02108517, y: 8.611778e-14, z: 0.03168369}
+      rotation: {x: -3.0842997e-16, y: 0.77983207, z: 0.6259888, w: 4.820469e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Rot_algn
+      parentName: Ashlee_DEF__L_NB_IK_Leg_algn
+      position: {x: -1.5987211e-16, y: -5.3290704e-17, z: -8.5265126e-16}
+      rotation: {x: -0.0410945, y: 0.6725291, z: 0.7385899, w: -0.022380434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_upv_null
+      parentName: Ashlee_DEF__L_NB_IK_Rot_algn
+      position: {x: -0.03806177, y: -1.2789769e-15, z: 2.842171e-16}
+      rotation: {x: 2.6367797e-16, y: 1.3877788e-17, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Leg_aim_upv_algn
+      parentName: Ashlee_DEF__L_NB_IK_Leg_algn
+      position: {x: -1.1546319e-16, y: -7.105427e-17, z: -8.5265126e-16}
+      rotation: {x: 0.034995683, y: 0.053840917, z: 0.9971105, w: -0.04058484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Leg_Twist_null
+      parentName: Ashlee_DEF__L_NB_IK_Leg_aim_upv_algn
+      position: {x: 0.021085097, y: 0.031644136, z: -0.0015836391}
+      rotation: {x: -0.02161682, y: -0.00000004729927, z: 0.0000000064226584, w: 0.99976635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Leg_PV_con_
+      parentName: Ashlee_DEF__L_NB_IK_Leg_Twist_null
+      position: {x: -0.019100823, y: -0.32626146, z: -0.014708806}
+      rotation: {x: 0.01976371, y: -0.0072679794, z: -0.00014364906, w: 0.9997783}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Hip_jnt
+      parentName: Ashlee_DEF__L_NB_IK_Leg_algn
+      position: {x: -1.0658141e-16, y: -5.3290704e-17, z: -7.105427e-16}
+      rotation: {x: 0.028242102, y: 0.038680714, z: 0.04029252, w: 0.9980395}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Knee_jnt
+      parentName: Ashlee_DEF__L_NB_IK_Hip_jnt
+      position: {x: -1.2134737e-15, y: -2.842171e-16, z: -0.28102294}
+      rotation: {x: -0.15931061, y: -0.00020519238, z: -0.00006197731, w: 0.9872285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Ankle_Tip_jnt
+      parentName: Ashlee_DEF__L_NB_IK_Knee_jnt
+      position: {x: -5.551115e-17, y: -2.1316282e-16, z: -0.29642642}
+      rotation: {x: -1.0547119e-15, y: 5.759282e-16, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Foot_algn
+      parentName: Ashlee_DEF__L_NB_IK_Leg_algn
+      position: {x: -0.037293993, y: -0.06282905, z: -0.56537825}
+      rotation: {x: 2.161548e-15, y: 0.77983207, z: 0.6259888, w: -2.7905882e-15}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Ankle_jnt
+      parentName: Ashlee_DEF__L_NB_IK_Foot_algn
+      position: {x: 1.0658141e-16, y: 3.5527136e-17, z: 0}
+      rotation: {x: 0.0030414334, y: 0.8258534, z: 0.5638195, w: 0.008029253}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Ball_jnt
+      parentName: Ashlee_DEF__L_NB_IK_Ankle_jnt
+      position: {x: -2.8509195e-11, y: -6.0396133e-16, z: -0.18174553}
+      rotation: {x: 0.5453243, y: 0.043000475, z: 0.014619133, w: 0.8369938}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Toes_jnt
+      parentName: Ashlee_DEF__L_NB_IK_Ball_jnt
+      position: {x: 1.687539e-16, y: -1.4210854e-15, z: -0.09880006}
+      rotation: {x: -7.332115e-17, y: 0.99984074, z: 0.01784861, w: 6.7664237e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_algn
+      parentName: Ashlee_DEF__L_NB_Leg_no_bendy_null
+      position: {x: -5.911465e-10, y: -0.28386924, z: -0.0017631629}
+      rotation: {x: 4.1633363e-16, y: -5.828671e-16, z: -3.469447e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Hip_jnt
+      parentName: Ashlee_DEF__L_NB_FK_algn
+      position: {x: -0.02108517, y: 0.28386924, z: 0.033446856}
+      rotation: {x: 0.0016354355, y: 0.75238824, z: 0.65871406, w: -0.0022455512}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Knee_jnt
+      parentName: Ashlee_DEF__L_NB_FK_Hip_jnt
+      position: {x: 0.0000014085381, y: -0.0000030410565, z: -0.28104556}
+      rotation: {x: -0.17630802, y: -0.00022874255, z: -0.000076104916, w: 0.98433506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Leg_PV
+      parentName: Ashlee_DEF__L_NB_FK_Knee_jnt
+      position: {x: -0.021124069, y: 0.15973991, z: 0.31741416}
+      rotation: {x: 0.0077517554, y: -0.08781408, z: 0.9961047, w: 0.0020193427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Ankle_Tip_jnt
+      parentName: Ashlee_DEF__L_NB_FK_Knee_jnt
+      position: {x: -2.8312463e-13, y: 1.5987211e-16, z: -0.29642642}
+      rotation: {x: -4.440892e-16, y: -2.0122792e-16, z: -6.938894e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Foot_algn
+      parentName: Ashlee_DEF__L_NB_FK_algn
+      position: {x: -0.021085162, y: -0.28386924, z: 0.0053567677}
+      rotation: {x: -0.0000000039085037, y: -0.0000000083774445, z: -3.9682167e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Ankle_jnt
+      parentName: Ashlee_DEF__L_NB_FK_Foot_algn
+      position: {x: -0, y: -2.4868996e-16, z: 9.7699626e-17}
+      rotation: {x: 7.317697e-10, y: 0.9397874, z: 0.34175977, w: -0.0000000020122553}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Ball_jnt
+      parentName: Ashlee_DEF__L_NB_FK_Ankle_jnt
+      position: {x: -2.9746338e-12, y: 1.3312373e-12, z: -0.18174553}
+      rotation: {x: 0.3249314, y: 0.0000000013171824, z: 1.6962085e-10, w: 0.9457376}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Toes_jnt
+      parentName: Ashlee_DEF__L_NB_FK_Ball_jnt
+      position: {x: -5.275346e-10, y: -1.1368684e-15, z: -0.09880006}
+      rotation: {x: 5.0819224e-17, y: 0.99984074, z: 0.01784861, w: 5.838672e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_BD_Leg_null
+      parentName: Ashlee_DEF__L_NB_Leg_no_bendy_null
+      position: {x: -5.9114663e-10, y: -0.28386924, z: -0.0017631629}
+      rotation: {x: -2.7755576e-17, y: -1.3877788e-17, z: -3.85186e-34, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Hip_jnt
+      parentName: Ashlee_DEF__L_NB_BD_Leg_null
+      position: {x: -0.02108517, y: 0.28386924, z: 0.033446856}
+      rotation: {x: 0.0072077527, y: 0.7959824, z: 0.6027374, w: -0.055387095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Knee_jnt
+      parentName: Ashlee_DEF__L_NB_Hip_jnt
+      position: {x: 1.2825296e-14, y: -9.947598e-16, z: -0.28102294}
+      rotation: {x: -0.15931061, y: -0.0002051924, z: -0.000061977385, w: 0.9872285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_BD_Ankle_jnt
+      parentName: Ashlee_DEF__L_NB_Knee_jnt
+      position: {x: -4.1876168e-13, y: 6.3948845e-15, z: -0.29642642}
+      rotation: {x: 0.20692544, y: -0.04274862, z: -0.046991874, w: 0.9762921}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Ankle_sIK_goal
+      parentName: Ashlee_DEF__L_NB_BD_Ankle_jnt
+      position: {x: -9.685022e-10, y: 0.00000012134949, z: 0.000000063640066}
+      rotation: {x: -0.51661414, y: -0.0008034114, z: 0.005492645, w: 0.85620034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_targ
+      parentName: Ashlee_DEF__L_NB_BD_Ankle_jnt
+      position: {x: 0.012117681, y: -0.13451119, z: 0.09676348}
+      rotation: {x: -0.0031581155, y: 0.94004005, z: 0.34104756, w: -0.001145792}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_BD_Ball_jnt
+      parentName: Ashlee_DEF__L_NB_BD_Ankle_jnt
+      position: {x: 1.0724754e-14, y: -7.105427e-16, z: -0.18174553}
+      rotation: {x: 0.5453243, y: 0.043000475, z: 0.014619133, w: 0.8369938}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_BD_Toes_jnt
+      parentName: Ashlee_DEF__L_NB_BD_Ball_jnt
+      position: {x: -5.3250937e-10, y: -2.2382096e-15, z: -0.09880006}
+      rotation: {x: 3.5662505e-13, y: 0.99984074, z: 0.01784861, w: -1.997394e-11}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_targ_2
+      parentName: Ashlee_DEF__BLND_Pelvis_Base_jnt
+      position: {x: -0.07615719, y: 0.0008039922, z: -0.3329306}
+      rotation: {x: 0.7047036, y: -1.0561178e-13, z: 1.0495623e-13, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_IK_targ_2
+      parentName: Ashlee_DEF__BLND_Pelvis_Base_jnt
+      position: {x: -0.097242355, y: -0.030715851, z: -0.048840974}
+      rotation: {x: -0.00000636169, y: 0.069622934, z: 0.9975734, w: -0.00007684997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Leg_no_bendy_null
+      parentName: Ashlee_DEF__BLND_Pelvis_Base_jnt
+      position: {x: 0.07615719, y: 0.00096711016, z: -0.04905597}
+      rotation: {x: 0.7047036, y: -1.453279e-12, z: 1.4621696e-12, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Ankle_drvr
+      parentName: Ashlee_DEF__R_NB_Leg_no_bendy_null
+      position: {x: 0.054956093, y: -0.24428521, z: -0.011936648}
+      rotation: {x: 0.04309316, y: 0.53242034, z: 0.8371602, w: 0.11761951}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Ankle_algn
+      parentName: Ashlee_DEF__R_FK_Ankle_drvr
+      position: {x: -0.000000007399576, y: -1.1523582e-12, z: 2.0429524e-12}
+      rotation: {x: -0.0000000012562327, y: 0.9666745, z: 0.2560086, w: 0.000000004743466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Leg_algn
+      parentName: Ashlee_DEF__R_NB_Leg_no_bendy_null
+      position: {x: 0.02108517, y: 2.0932588e-13, z: 0.03168369}
+      rotation: {x: -1.1649856e-11, y: 0.77983207, z: 0.6259888, w: 1.4512834e-11}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Rot_algn
+      parentName: Ashlee_DEF__R_NB_IK_Leg_algn
+      position: {x: -7.105427e-17, y: 1.7763568e-17, z: -2.842171e-16}
+      rotation: {x: -0.043328226, y: 0.99463964, z: 0.015383886, w: 0.09261793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_upv_null
+      parentName: Ashlee_DEF__R_NB_IK_Rot_algn
+      position: {x: 0.03806177, y: -0.0000000011343448, z: -1.4168222e-12}
+      rotation: {x: 1.7347235e-18, y: -1.0740378e-18, z: -4.3368087e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Leg_aim_upv_algn
+      parentName: Ashlee_DEF__R_NB_IK_Leg_algn
+      position: {x: -3.5527136e-17, y: 1.7763568e-17, z: -2.842171e-16}
+      rotation: {x: -0.19541901, y: 0.06703878, z: -0.010394739, w: 0.97837067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Leg_Twist_null
+      parentName: Ashlee_DEF__R_NB_IK_Leg_aim_upv_algn
+      position: {x: 0.021085097, y: -0.031644136, z: -0.0015836391}
+      rotation: {x: -0.00000004730018, y: -0.02161682, z: 0.99976635, w: -0.0000000010227184}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Leg_PV_con_
+      parentName: Ashlee_DEF__R_NB_IK_Leg_Twist_null
+      position: {x: 0.019100817, y: -0.32626146, z: -0.014708806}
+      rotation: {x: 0.01976371, y: 0.0072679794, z: 0.00014364895, w: 0.9997783}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Hip_jnt
+      parentName: Ashlee_DEF__R_NB_IK_Leg_algn
+      position: {x: -5.3290704e-17, y: 8.8817837e-17, z: -2.842171e-16}
+      rotation: {x: 0.3810187, y: 0.04735029, z: -0.047700368, w: 0.92212117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Knee_jnt
+      parentName: Ashlee_DEF__R_NB_IK_Hip_jnt
+      position: {x: 2.3092638e-16, y: -1.4210854e-16, z: -0.28102294}
+      rotation: {x: 0.90136874, y: -0.0011609632, z: -0.000027186525, w: -0.4330508}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Ankle_Tip_jnt
+      parentName: Ashlee_DEF__R_NB_IK_Knee_jnt
+      position: {x: -1.5987211e-16, y: 2.842171e-16, z: -0.29642642}
+      rotation: {x: -3.8857806e-16, y: 5.6812194e-16, z: 1.1275703e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Foot_algn
+      parentName: Ashlee_DEF__R_NB_IK_Leg_algn
+      position: {x: -0.033870924, y: -0.09542101, z: -0.2290695}
+      rotation: {x: 6.249749e-16, y: 0.77983207, z: 0.6259888, w: -8.7638603e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Ankle_jnt
+      parentName: Ashlee_DEF__R_NB_IK_Foot_algn
+      position: {x: -3.5527136e-17, y: -1.4210854e-16, z: 7.105427e-17}
+      rotation: {x: 0.04309316, y: 0.53242034, z: 0.8371602, w: 0.11761951}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Ball_jnt
+      parentName: Ashlee_DEF__R_NB_IK_Ankle_jnt
+      position: {x: 1.4550263e-11, y: 1.9539926e-15, z: -0.18174553}
+      rotation: {x: 0.3224445, y: 0.030251456, z: 0.010363693, w: 0.94604814}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Toes_jnt
+      parentName: Ashlee_DEF__R_NB_IK_Ball_jnt
+      position: {x: -0, y: -1.5010215e-15, z: -0.09880006}
+      rotation: {x: -7.247567e-17, y: 0.99984074, z: 0.01784861, w: 6.292804e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_algn
+      parentName: Ashlee_DEF__R_NB_Leg_no_bendy_null
+      position: {x: -5.911465e-10, y: -0.28386924, z: -0.0017631629}
+      rotation: {x: 4.1633363e-16, y: -5.828671e-16, z: -3.469447e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Hip_jnt
+      parentName: Ashlee_DEF__R_NB_FK_algn
+      position: {x: 0.02108517, y: 0.28386924, z: 0.033446856}
+      rotation: {x: -0.0016353742, y: 0.75238824, z: 0.65871406, w: 0.002245444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Knee_jnt
+      parentName: Ashlee_DEF__R_NB_FK_Hip_jnt
+      position: {x: -0.0000014085405, y: -0.0000030410567, z: -0.28104556}
+      rotation: {x: -0.17630802, y: 0.00022873138, z: 0.000076106815, w: 0.98433506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Leg_PV
+      parentName: Ashlee_DEF__R_NB_FK_Knee_jnt
+      position: {x: 0.021124069, y: 0.15973991, z: 0.31741416}
+      rotation: {x: -0.0077517545, y: -0.08781408, z: 0.9961047, w: -0.0020193427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Ankle_Tip_jnt
+      parentName: Ashlee_DEF__R_NB_FK_Knee_jnt
+      position: {x: 6.021494e-13, y: 1.4210854e-16, z: -0.29642642}
+      rotation: {x: -3.8857806e-16, y: -1.3877788e-17, z: -5.392604e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Foot_algn
+      parentName: Ashlee_DEF__R_NB_FK_algn
+      position: {x: 0.021085154, y: -0.28386924, z: 0.0053567677}
+      rotation: {x: -0.0000000039085015, y: 0.000000008379817, z: 3.622197e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Ankle_jnt
+      parentName: Ashlee_DEF__R_NB_FK_Foot_algn
+      position: {x: 1.7763568e-17, y: -3.5527135e-16, z: 8.881784e-18}
+      rotation: {x: 0.000000005891922, y: 0.9397874, z: 0.34175977, w: -0.000000016201891}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Ball_jnt
+      parentName: Ashlee_DEF__R_NB_FK_Ankle_jnt
+      position: {x: 7.5902395e-11, y: 1.023892e-12, z: -0.18174553}
+      rotation: {x: 0.3249314, y: -0.000000017243936, z: 0.0000000063134613, w: 0.9457376}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Toes_jnt
+      parentName: Ashlee_DEF__R_NB_FK_Ball_jnt
+      position: {x: -2.5114372e-10, y: -9.237055e-16, z: -0.09880006}
+      rotation: {x: 5.0819224e-17, y: 0.99984074, z: 0.01784861, w: 5.838672e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_BD_Leg_null
+      parentName: Ashlee_DEF__R_NB_Leg_no_bendy_null
+      position: {x: -5.9114663e-10, y: -0.28386924, z: -0.0017631629}
+      rotation: {x: -2.7755576e-17, y: -1.3877788e-17, z: -3.85186e-34, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Hip_jnt
+      parentName: Ashlee_DEF__R_NB_BD_Leg_null
+      position: {x: 0.02108517, y: 0.28386924, z: 0.033446856}
+      rotation: {x: -0.06683908, y: 0.95761305, z: 0.28010687, w: -0.007065398}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Knee_jnt
+      parentName: Ashlee_DEF__R_NB_Hip_jnt
+      position: {x: 1.0267342e-14, y: -2.2737367e-15, z: -0.28102294}
+      rotation: {x: 0.90136874, y: -0.0011609632, z: -0.000027186525, w: -0.4330508}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_BD_Ankle_jnt
+      parentName: Ashlee_DEF__R_NB_Knee_jnt
+      position: {x: 9.0949465e-14, y: -2.5366375e-14, z: -0.29642642}
+      rotation: {x: 0.38822588, y: -0.11495112, z: -0.15054815, w: 0.90188813}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Ankle_sIK_goal
+      parentName: Ashlee_DEF__R_NB_BD_Ankle_jnt
+      position: {x: 6.622457e-10, y: 0.00000012135156, z: 0.000000063640066}
+      rotation: {x: -0.51661414, y: 0.0008034069, z: -0.00549264, w: 0.85620034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_targ
+      parentName: Ashlee_DEF__R_NB_BD_Ankle_jnt
+      position: {x: -0.012117674, y: -0.13451119, z: 0.09676348}
+      rotation: {x: 0.003158095, y: 0.94004005, z: 0.34104756, w: 0.0011457393}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_BD_Ball_jnt
+      parentName: Ashlee_DEF__R_NB_BD_Ankle_jnt
+      position: {x: -1.5809576e-15, y: -2.3412382e-14, z: -0.18174553}
+      rotation: {x: 0.3224445, y: 0.030251456, z: 0.010363693, w: 0.94604814}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_BD_Toes_jnt
+      parentName: Ashlee_DEF__R_NB_BD_Ball_jnt
+      position: {x: 2.5756178e-10, y: 1.5099033e-16, z: -0.09880006}
+      rotation: {x: 1.9947312e-12, y: 0.99984074, z: 0.01784861, w: -1.1174398e-10}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_targ
+      parentName: Ashlee_DEF__BLND_Pelvis_Base_jnt
+      position: {x: 0.07615719, y: 0.0008039922, z: -0.3329306}
+      rotation: {x: 0.7047036, y: -1.05513315e-13, z: 1.0485844e-13, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_IK_targ
+      parentName: Ashlee_DEF__BLND_Pelvis_Base_jnt
+      position: {x: 0.097242355, y: -0.030715851, z: -0.048840974}
+      rotation: {x: 0.000006361387, y: 0.069622934, z: 0.9975734, w: 0.000076849945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__BLND_Spine_01_jnt
+      parentName: Ashlee_DEF__Blend_Spine_null
+      position: {x: -0.060201023, y: 0.09271489, z: 0.21130545}
+      rotation: {x: 0.8079178, y: 0.00068351155, z: 0.017886665, w: 0.58902335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__BLND_Spine_02_jnt
+      parentName: Ashlee_DEF__BLND_Spine_01_jnt
+      position: {x: 1.7763568e-17, y: -1.4210854e-16, z: -0.029890385}
+      rotation: {x: 1.2037062e-34, y: -1.7347235e-17, z: 6.938894e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__BLND_Spine_03_jnt
+      parentName: Ashlee_DEF__BLND_Spine_02_jnt
+      position: {x: -1.7763568e-17, y: 1.0658141e-16, z: -0.02988944}
+      rotation: {x: -5.1398255e-32, y: -4.2327253e-16, z: -1.2143064e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__BLND_Spine_04_jnt
+      parentName: Ashlee_DEF__BLND_Spine_03_jnt
+      position: {x: 5.7731595e-17, y: -0.0000000014163999, z: -0.02988944}
+      rotation: {x: -0.000000007450581, y: -4.4582393e-16, z: -3.321647e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__BLND_Spine_05_jnt
+      parentName: Ashlee_DEF__BLND_Spine_04_jnt
+      position: {x: 7.9936054e-17, y: -9.710436e-10, z: -0.029890358}
+      rotation: {x: 0.05813283, y: -0.055988856, z: -0.059263162, w: 0.99497426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Chest_algn
+      parentName: Ashlee_DEF__Spine_null
+      position: {x: -0.06375279, y: 0.21173696, z: 0.25131476}
+      rotation: {x: 0.8390599, y: 0.016620899, z: -0.062384732, w: 0.54019475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__BLND_Chest_jnt
+      parentName: Ashlee_DEF__Chest_algn
+      position: {x: 8.881784e-18, y: -0.0000000028328446, z: -2.842171e-16}
+      rotation: {x: 2.7938297e-17, y: -0.0029860758, z: 0.9999955, w: -6.114919e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Collar_targ
+      parentName: Ashlee_DEF__BLND_Chest_jnt
+      position: {x: -0.036347747, y: -0.039321672, z: -0.12372103}
+      rotation: {x: 0.038619146, y: 0.70816076, z: -0.7048263, w: -0.015393786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Collar_root_Follow_chest_algn
+      parentName: Ashlee_DEF__BLND_Chest_jnt
+      position: {x: -0.036347747, y: -0.039321672, z: -0.12372103}
+      rotation: {x: 7.2778097e-17, y: 0.7092151, z: -0.7049922, w: -1.3641309e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Collar_root_algn
+      parentName: Ashlee_DEF__R_Collar_root_Follow_chest_algn
+      position: {x: 2.380318e-15, y: -2.4158453e-15, z: -4.2632563e-16}
+      rotation: {x: -0.0019647905, y: -0.042279083, z: 0.046380233, w: 0.99802685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_BLND_Collar_jnt
+      parentName: Ashlee_DEF__R_Collar_root_algn
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.03764626, y: -0.61030376, z: 0.041739643, w: 0.7901708}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_BLND_Collar_Tip_jnt
+      parentName: Ashlee_DEF__R_BLND_Collar_jnt
+      position: {x: 4.2632563e-16, y: -1.4210854e-16, z: -0.109704204}
+      rotation: {x: -0.31678566, y: -0.0432176, z: -0.028798684, w: 0.9470743}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_pos_rot_targ
+      parentName: Ashlee_DEF__R_BLND_Collar_Tip_jnt
+      position: {x: -3.5527136e-17, y: 1.7053025e-15, z: 2.4158453e-15}
+      rotation: {x: -0.025434755, y: 0.6405124, z: -0.030454483, w: 0.76692206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_PV_Chest_Follow_targ
+      parentName: Ashlee_DEF__BLND_Chest_jnt
+      position: {x: -0.30732697, y: 0.17918596, z: -0.0036096552}
+      rotation: {x: -9.226859e-16, y: -0.0029860758, z: 0.9999955, w: -6.3987833e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Collar_targ
+      parentName: Ashlee_DEF__BLND_Chest_jnt
+      position: {x: 0.036347747, y: -0.039321672, z: -0.12372103}
+      rotation: {x: -0.038619146, y: 0.70816076, z: -0.7048263, w: 0.015393786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Collar_root_Follow_chest_algn
+      parentName: Ashlee_DEF__BLND_Chest_jnt
+      position: {x: 0.036347747, y: -0.039321672, z: -0.12372103}
+      rotation: {x: 7.2778097e-17, y: 0.7092151, z: -0.7049922, w: -1.3641309e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Collar_root_algn
+      parentName: Ashlee_DEF__L_Collar_root_Follow_chest_algn
+      position: {x: 2.220446e-15, y: -1.9895197e-15, z: -4.6185276e-16}
+      rotation: {x: 0.025123365, y: 0.1637975, z: -0.07129062, w: 0.9835939}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_BLND_Collar_jnt
+      parentName: Ashlee_DEF__L_Collar_root_algn
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.03764626, y: 0.61030376, z: -0.041739643, w: 0.7901708}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_BLND_Collar_Tip_jnt
+      parentName: Ashlee_DEF__L_BLND_Collar_jnt
+      position: {x: -1.5987211e-15, y: 5.684342e-16, z: -0.109704204}
+      rotation: {x: -0.31678566, y: 0.0432176, z: 0.028798684, w: 0.9470743}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_pos_rot_targ
+      parentName: Ashlee_DEF__L_BLND_Collar_Tip_jnt
+      position: {x: 2.131628e-15, y: 1.4210854e-15, z: 6.3948843e-16}
+      rotation: {x: -0.025434755, y: -0.6405124, z: 0.030454483, w: 0.76692206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_PV_Chest_Follow_targ
+      parentName: Ashlee_DEF__BLND_Chest_jnt
+      position: {x: 0.30732697, y: 0.17918596, z: -0.0036096543}
+      rotation: {x: -9.226859e-16, y: -0.0029860758, z: 0.9999955, w: -6.3987833e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Neck_algn_targ
+      parentName: Ashlee_DEF__BLND_Chest_jnt
+      position: {x: 7.9936054e-17, y: -5.684342e-16, z: -0.2220357}
+      rotation: {x: -1.942399e-16, y: 0.29391685, z: 0.955831, w: 1.2379041e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__BLND_Neck_jnt
+      parentName: Ashlee_DEF__BLND_Chest_jnt
+      position: {x: 4.4408918e-17, y: 1.4210854e-16, z: -0.2220357}
+      rotation: {x: -0.00021479437, y: 0.29646274, z: 0.9550444, w: 0.0001428026}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Head_pos_rot_algn_targ
+      parentName: Ashlee_DEF__BLND_Neck_jnt
+      position: {x: 1.7763568e-17, y: -1.4210854e-16, z: -0.087100506}
+      rotation: {x: -0.2967697, y: 7.0748195e-18, z: 2.3997378e-17, w: 0.9549491}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__BLND_Head_jnt
+      parentName: Ashlee_DEF__BLND_Neck_jnt
+      position: {x: -0, y: 2.842171e-16, z: -0.087100506}
+      rotation: {x: -0.38270012, y: 0.052392732, z: 0.037529495, w: 0.92162204}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Jaw_Comp
+      parentName: Ashlee_DEF__BLND_Head_jnt
+      position: {x: 7.257988e-10, y: 0.051094145, z: -0.08737799}
+      rotation: {x: -3.16529e-12, y: 0.8666405, z: -0.49893308, w: -5.4979463e-12}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Jaw_jnt
+      parentName: Ashlee_DEF__Jaw_Comp
+      position: {x: 7.260968e-10, y: -0.009090877, z: -0.03098866}
+      rotation: {x: 9.436896e-16, y: -1.8938844e-15, z: -1.2555061e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Jaw_Tip_jnt
+      parentName: Ashlee_DEF__Jaw_jnt
+      position: {x: -1.110223e-18, y: 8.5265126e-16, z: -0.18273486}
+      rotation: {x: 6.158896e-17, y: 0.98926127, z: 0.14615807, w: 2.0852214e-18}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__BLND_Head_Tip_jnt
+      parentName: Ashlee_DEF__BLND_Head_jnt
+      position: {x: -5.0764945e-16, y: 1.065814e-15, z: -0.62170327}
+      rotation: {x: -3.6066047e-33, y: 5.89806e-17, z: 6.1149e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Arm_no_bendy_null
+      parentName: Ashlee_DEF__BLND_Chest_jnt
+      position: {x: 0.03634775, y: -0.039321672, z: -0.12372103}
+      rotation: {x: 1.6876406e-12, y: 0.7092151, z: -0.7049922, w: 1.6775054e-12}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Arm_algn
+      parentName: Ashlee_DEF__L_NB_Arm_no_bendy_null
+      position: {x: -0.10575043, y: 0.027913647, z: 0.008525791}
+      rotation: {x: 0, y: 2.7755576e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Arm_aim_upv_algn
+      parentName: Ashlee_DEF__L_NB_IK_Arm_algn
+      position: {x: -3.5527136e-17, y: 0, z: -7.105427e-17}
+      rotation: {x: 0.8882373, y: -0.26492676, z: 0.1384706, w: -0.34881827}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Arm_Twist_null
+      parentName: Ashlee_DEF__L_NB_IK_Arm_aim_upv_algn
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1.6653345e-16, y: -4.9960036e-16, z: -4.1633363e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Shoulder_jnt
+      parentName: Ashlee_DEF__L_NB_IK_Arm_algn
+      position: {x: -3.5527136e-17, y: 0, z: -7.105427e-17}
+      rotation: {x: -0.7951843, y: 0.13647884, z: -0.20937131, w: 0.5524664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Elbow_jnt
+      parentName: Ashlee_DEF__L_NB_IK_Shoulder_jnt
+      position: {x: 5.6843415e-15, y: 6.3948843e-16, z: -0.22498459}
+      rotation: {x: -0.516857, y: 0.001268049, z: 0.000024946423, w: 0.8560708}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_IK_Wrist_Tip_jnt
+      parentName: Ashlee_DEF__L_NB_IK_Elbow_jnt
+      position: {x: -6.6791017e-15, y: 1.4210854e-16, z: -0.19977167}
+      rotation: {x: -0.1353979, y: -0.003600449, z: 0.5962209, w: 0.79131234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_null
+      parentName: Ashlee_DEF__L_NB_Arm_no_bendy_null
+      position: {x: -0.15231438, y: 0.012115915, z: -0.02767006}
+      rotation: {x: 0, y: 2.7755576e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Shoulder_jnt
+      parentName: Ashlee_DEF__L_NB_FK_null
+      position: {x: 0.04656395, y: 0.01579773, z: 0.036195848}
+      rotation: {x: -0.72491634, y: 0.15687288, z: -0.42321348, w: 0.52036285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Elbow_jnt
+      parentName: Ashlee_DEF__L_NB_FK_Shoulder_jnt
+      position: {x: 5.2580163e-15, y: 1.4210854e-16, z: -0.22498459}
+      rotation: {x: -0.108343355, y: 0.0002658079, z: 0.000028969045, w: 0.9941135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Wrist_Tip_jnt
+      parentName: Ashlee_DEF__L_NB_FK_Elbow_jnt
+      position: {x: -3.694822e-15, y: -1.4210854e-16, z: -0.19977167}
+      rotation: {x: -0.05093257, y: -0.13951218, z: 0.6948776, w: 0.7036244}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_BD_Arm_null
+      parentName: Ashlee_DEF__L_NB_Arm_no_bendy_null
+      position: {x: -0.15231438, y: 0.012115915, z: -0.02767006}
+      rotation: {x: 0, y: 2.7755576e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_IK_Arm_nb_forearm_twist_algn2
+      parentName: Ashlee_DEF__L_NB_BD_Arm_null
+      position: {x: -0.11018871, y: -0.182974, z: 0.2975553}
+      rotation: {x: -0.63856786, y: 0.7692409, z: -0.015914962, w: -0.01569091}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_IK_Arm_nb_forearm_twist_goal2
+      parentName: Ashlee_DEF__L_IK_Arm_nb_forearm_twist_algn2
+      position: {x: 5.684342e-16, y: 1.2505552e-14, z: 4.8316907e-15}
+      rotation: {x: -1.6653345e-16, y: 1.3322676e-15, z: 2.7755576e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_IK_Arm_nb_forearm_twist_algn1
+      parentName: Ashlee_DEF__L_NB_BD_Arm_null
+      position: {x: -0.13645351, y: -0.12954919, z: -0.015317159}
+      rotation: {x: -0.24680923, y: 0.71629435, z: 0.17372365, w: 0.62914836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_IK_Arm_nb_forearm_twist_goal1
+      parentName: Ashlee_DEF__L_IK_Arm_nb_forearm_twist_algn1
+      position: {x: -0.10145426, y: -0.01820558, z: -0.029175708}
+      rotation: {x: 0.11814323, y: 0.77332157, z: -0.17443928, w: 0.5979857}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Forearm_Twist_null
+      parentName: Ashlee_DEF__L_NB_BD_Arm_null
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 2.7755576e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_BLND_Forearm_Twist_01_jnt
+      parentName: Ashlee_DEF__L_Forearm_Twist_null
+      position: {x: -0.062278517, y: -0.16902162, z: 0.10411622}
+      rotation: {x: -0.5234289, y: 0.84271735, z: -0.033874102, w: 0.121252574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_BLND_Forearm_Twist_02_jnt
+      parentName: Ashlee_DEF__L_NB_BLND_Forearm_Twist_01_jnt
+      position: {x: -1.4673872e-10, y: 0.0000000014810131, z: -0.09988585}
+      rotation: {x: -5.509069e-17, y: -1.9090987e-16, z: -0.069786906, w: 0.99756193}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_BLND_Forearm_Twist_05_tip_jnt
+      parentName: Ashlee_DEF__L_NB_BLND_Forearm_Twist_02_jnt
+      position: {x: 7.105427e-17, y: 1.4210854e-16, z: -0.099865876}
+      rotation: {x: -1.146249e-16, y: -4.7629503e-17, z: -0.06977302, w: 0.9975629}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_BLND_Shoulder_jnt
+      parentName: Ashlee_DEF__L_NB_BD_Arm_null
+      position: {x: 0.04656395, y: 0.01579773, z: 0.036195848}
+      rotation: {x: -0.7951843, y: 0.13647884, z: -0.20937131, w: 0.5524664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_BLND_Elbow_jnt
+      parentName: Ashlee_DEF__L_NB_BLND_Shoulder_jnt
+      position: {x: -4.874323e-14, y: -2.9132252e-15, z: -0.22498459}
+      rotation: {x: -0.516857, y: 0.001268049, z: 0.000024946423, w: 0.8560708}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_IK_Arm_nb_forearm_twist_targ1
+      parentName: Ashlee_DEF__L_NB_BLND_Elbow_jnt
+      position: {x: -3.8166448e-10, y: -0.000000009772314, z: 0.000000040504577}
+      rotation: {x: 0.000000019981215, y: -0.00000002141081, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_BLND_Wrist_Tip_jnt
+      parentName: Ashlee_DEF__L_NB_BLND_Elbow_jnt
+      position: {x: 1.6768808e-14, y: -2.494005e-14, z: -0.19977167}
+      rotation: {x: -0.1353979, y: -0.003600449, z: 0.5962209, w: 0.79131234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Hand_nb_con_
+      parentName: Ashlee_DEF__L_NB_BLND_Wrist_Tip_jnt
+      position: {x: 0.00015828274, y: 0.00030806274, z: -0.28546306}
+      rotation: {x: -0.003318097, y: -0.70833766, z: 0.000010524348, w: 0.7058659}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Hand_null
+      parentName: Ashlee_DEF__L_NB_BLND_Wrist_Tip_jnt
+      position: {x: 0.0000000025080273, y: 7.092055e-11, z: 0.000000017598973}
+      rotation: {x: -0.002322018, y: 0.011703522, z: -0.0023702555, w: 0.99992603}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Palm_algn
+      parentName: Ashlee_DEF__L_Hand_null
+      position: {x: -0.000000002095255, y: 3.8085088e-14, z: -0.000000017653006}
+      rotation: {x: 0.002322018, y: -0.011703522, z: 0.0023702555, w: 0.99992603}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Wrist_01_jnt
+      parentName: Ashlee_DEF__L_Palm_algn
+      position: {x: 0.000000017590255, y: 0, z: -0.0000000025693616}
+      rotation: {x: -3.85186e-34, y: 2.7755576e-17, z: 1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Finger_null_2
+      parentName: Ashlee_DEF__L_NB_Wrist_01_jnt
+      position: {x: 0.019081991, y: 0.005540527, z: -0.061175365}
+      rotation: {x: -0.0032695155, y: -0.7083377, z: -0.0005658171, w: 0.705866}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Finger_null_2_2
+      parentName: Ashlee_DEF__L_FK_Finger_null_2
+      position: {x: 0.00012079545, y: -0.0017760786, z: 0}
+      rotation: {x: -1.3877788e-17, y: -3.85186e-34, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Finger_Palm_Base_jnt_2
+      parentName: Ashlee_DEF__L_FK_Finger_null_2_2
+      position: {x: 0.016739085, y: 0.020156294, z: -0.027504856}
+      rotation: {x: 0.02812804, y: 0.70677036, z: -0.028145848, w: 0.70632315}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Finger_Base_jnt_2
+      parentName: Ashlee_DEF__L_NB_FK_Finger_Palm_Base_jnt_2
+      position: {x: -7.105427e-17, y: -5.684342e-16, z: -0.06368713}
+      rotation: {x: -0.14451109, y: -0.017683363, z: -0.07793653, w: 0.98627067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Finger_Mid_jnt_2
+      parentName: Ashlee_DEF__L_NB_FK_Finger_Base_jnt_2
+      position: {x: -1.1368684e-15, y: 4.2632563e-16, z: -0.04755171}
+      rotation: {x: -0.055996425, y: -0.00038323985, z: 0.0017708931, w: 0.99842936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Finger_Top_jnt_2
+      parentName: Ashlee_DEF__L_NB_FK_Finger_Mid_jnt_2
+      position: {x: -1.4210854e-16, y: -5.684342e-16, z: -0.032801233}
+      rotation: {x: -0.108778395, y: -0.011735048, z: -0.00059957395, w: 0.99399656}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Finger_End_jnt_2
+      parentName: Ashlee_DEF__L_NB_FK_Finger_Top_jnt_2
+      position: {x: -1.4210854e-16, y: 9.947598e-16, z: -0.0497514}
+      rotation: {x: 0.0039947624, y: -0.7070955, z: -0.0039947624, w: 0.7070955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Controls_2
+      parentName: Ashlee_DEF__L_FK_Finger_null_2
+      position: {x: -0.056480773, y: -0.0017760786, z: 2.1316282e-16}
+      rotation: {x: -0.0039927647, y: 0.7070955, z: 0.0039967597, w: 0.7070955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Palm_Base_con__2
+      parentName: Ashlee_DEF__L_Finger_Controls_2
+      position: {x: 0.027504966, y: 0.019326197, z: 0.07356371}
+      rotation: {x: 0.045435984, y: 0.00031617115, z: -0.000013627689, w: 0.99896723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Seg1_jnt_drvr_2
+      parentName: Ashlee_DEF__L_Finger_Palm_Base_con__2
+      position: {x: 3.5527137e-15, y: 1.4210854e-16, z: -0.06368713}
+      rotation: {x: -0.14451109, y: -0.017683363, z: -0.07793653, w: 0.98627067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Seg1_jnt_con__2
+      parentName: Ashlee_DEF__L_Finger_Seg1_jnt_drvr_2
+      position: {x: 1.4210854e-16, y: 5.684342e-16, z: -1.1368684e-15}
+      rotation: {x: 3.8857806e-16, y: -1.9428903e-16, z: -2.6367797e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Seg2_jnt_drvr_2
+      parentName: Ashlee_DEF__L_Finger_Seg1_jnt_con__2
+      position: {x: -4.8316907e-15, y: -5.684342e-16, z: -0.04755171}
+      rotation: {x: -0.055996425, y: -0.00038323985, z: 0.0017708931, w: 0.99842936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Seg2_jnt_con__2
+      parentName: Ashlee_DEF__L_Finger_Seg2_jnt_drvr_2
+      position: {x: 1.4210854e-16, y: -1.9895197e-15, z: 1.4210854e-16}
+      rotation: {x: 5.551115e-17, y: 6.938894e-17, z: -5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Seg3_jnt_drvr_2
+      parentName: Ashlee_DEF__L_Finger_Seg2_jnt_con__2
+      position: {x: -7.105427e-16, y: 0, z: -0.032801233}
+      rotation: {x: -0.108778395, y: -0.011735048, z: -0.00059957395, w: 0.99399656}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Finger_null_1
+      parentName: Ashlee_DEF__L_NB_Wrist_01_jnt
+      position: {x: -0.0052808733, y: 0.005540527, z: -0.06094703}
+      rotation: {x: -0.003291084, y: -0.67687404, z: -0.00042266425, w: 0.7360914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Finger_null_1_2
+      parentName: Ashlee_DEF__L_FK_Finger_null_1
+      position: {x: 0.00012079545, y: -0.0017760786, z: 0}
+      rotation: {x: 1.3877788e-17, y: 3.85186e-34, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Finger_Palm_Base_jnt_1
+      parentName: Ashlee_DEF__L_FK_Finger_null_1_2
+      position: {x: 0.015649982, y: 0.03533124, z: -0.0045660115}
+      rotation: {x: 0.054442644, y: 0.69890493, z: -0.053506766, w: 0.71112937}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Finger_Base_jnt_1
+      parentName: Ashlee_DEF__L_NB_FK_Finger_Palm_Base_jnt_1
+      position: {x: 2.842171e-16, y: 7.105427e-16, z: -0.07256919}
+      rotation: {x: -0.19710979, y: -0.0036269808, z: -0.001984913, w: 0.9803727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Finger_Mid_jnt_1
+      parentName: Ashlee_DEF__L_NB_FK_Finger_Base_jnt_1
+      position: {x: 7.105427e-16, y: -2.842171e-16, z: -0.051222224}
+      rotation: {x: -0.061492752, y: -0.00096731103, z: 0.004801672, w: 0.9980955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Finger_Top_jnt_1
+      parentName: Ashlee_DEF__L_NB_FK_Finger_Mid_jnt_1
+      position: {x: -4.973799e-16, y: -7.105427e-16, z: -0.039744858}
+      rotation: {x: -0.08617398, y: -0.019080982, z: -0.00016238382, w: 0.9960974}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Finger_End_jnt_1
+      parentName: Ashlee_DEF__L_NB_FK_Finger_Top_jnt_1
+      position: {x: -1.7763568e-15, y: 0, z: -0.05539673}
+      rotation: {x: 0.0039947624, y: -0.7070955, z: -0.0039947624, w: 0.7070955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Controls_1
+      parentName: Ashlee_DEF__L_FK_Finger_null_1
+      position: {x: -0.056480773, y: -0.0017760786, z: -1.4210854e-16}
+      rotation: {x: -0.0039927647, y: 0.7070955, z: 0.0039967597, w: 0.7070955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Palm_Base_con__1
+      parentName: Ashlee_DEF__L_Finger_Controls_1
+      position: {x: 0.0045662066, y: 0.034512613, z: 0.07264613}
+      rotation: {x: 0.08196327, y: -0.008647816, z: 0.0006101074, w: 0.99659765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Seg1_jnt_drvr_1
+      parentName: Ashlee_DEF__L_Finger_Palm_Base_con__1
+      position: {x: -9.237055e-16, y: 7.105427e-17, z: -0.07256919}
+      rotation: {x: -0.19710979, y: -0.0036269808, z: -0.0019849136, w: 0.9803727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Seg1_jnt_con__1
+      parentName: Ashlee_DEF__L_Finger_Seg1_jnt_drvr_1
+      position: {x: -0, y: 5.684342e-16, z: 5.684342e-16}
+      rotation: {x: -5.551115e-16, y: -4.1633363e-16, z: -6.938894e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Seg2_jnt_drvr_1
+      parentName: Ashlee_DEF__L_Finger_Seg1_jnt_con__1
+      position: {x: 4.973799e-16, y: 4.2632563e-16, z: -0.051222224}
+      rotation: {x: -0.061492752, y: -0.00096731103, z: 0.004801672, w: 0.9980955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Seg2_jnt_con__1
+      parentName: Ashlee_DEF__L_Finger_Seg2_jnt_drvr_1
+      position: {x: 1.4210854e-16, y: -2.842171e-16, z: 2.842171e-16}
+      rotation: {x: -4.1633363e-16, y: -5.551115e-17, z: 1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Seg3_jnt_drvr_1
+      parentName: Ashlee_DEF__L_Finger_Seg2_jnt_con__1
+      position: {x: -1.0871304e-14, y: -1.4210854e-15, z: -0.039744858}
+      rotation: {x: -0.08617398, y: -0.019080982, z: -0.00016238382, w: 0.9960974}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Finger_null
+      parentName: Ashlee_DEF__L_NB_Wrist_01_jnt
+      position: {x: -0.029531127, y: 0.005540527, z: -0.0585962}
+      rotation: {x: -0.003306388, y: -0.644122, z: -0.0002787069, w: 0.7649156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Finger_null_2_3
+      parentName: Ashlee_DEF__L_FK_Finger_null
+      position: {x: 0.00012079545, y: -0.0017760786, z: -1.4210854e-16}
+      rotation: {x: 1.3877788e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Finger_Palm_Base_jnt
+      parentName: Ashlee_DEF__L_FK_Finger_null_2_3
+      position: {x: 0.008719835, y: 0.027576765, z: 0.01979274}
+      rotation: {x: -0.012500228, y: 0.69415855, z: 0.012058073, w: 0.71961254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Finger_Base_jnt
+      parentName: Ashlee_DEF__L_NB_FK_Finger_Palm_Base_jnt
+      position: {x: 2.1316282e-16, y: -2.842171e-16, z: -0.06756029}
+      rotation: {x: -0.028971208, y: -0.0020140407, z: 0.00056893926, w: 0.99957806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Finger_Mid_jnt
+      parentName: Ashlee_DEF__L_NB_FK_Finger_Base_jnt
+      position: {x: -6.3948843e-16, y: -7.105427e-16, z: -0.054647893}
+      rotation: {x: -0.087597765, y: 0.009635416, z: 0.0019965123, w: 0.99610734}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Finger_Top_jnt
+      parentName: Ashlee_DEF__L_NB_FK_Finger_Mid_jnt
+      position: {x: -5.684342e-16, y: 0, z: -0.037778065}
+      rotation: {x: -0.09627713, y: -0.015923703, z: 0.0002857259, w: 0.99522716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Finger_End_jnt
+      parentName: Ashlee_DEF__L_NB_FK_Finger_Top_jnt
+      position: {x: 7.105427e-17, y: 5.684342e-16, z: -0.041709237}
+      rotation: {x: 0.0039947624, y: -0.7070955, z: -0.0039947624, w: 0.7070955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Controls
+      parentName: Ashlee_DEF__L_FK_Finger_null
+      position: {x: -0.056480773, y: -0.0017760786, z: -7.105427e-17}
+      rotation: {x: -0.0039927647, y: 0.7070955, z: 0.0039967597, w: 0.7070955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Palm_Base_con_
+      parentName: Ashlee_DEF__L_Finger_Controls
+      position: {x: -0.019792587, y: 0.02683707, z: 0.06562881}
+      rotation: {x: -0.011717436, y: -0.017996598, z: -0.00041715204, w: 0.99976933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Seg1_jnt_drvr
+      parentName: Ashlee_DEF__L_Finger_Palm_Base_con_
+      position: {x: -6.3948843e-16, y: 4.2632563e-16, z: -0.06756029}
+      rotation: {x: -0.028971208, y: -0.0020140407, z: 0.00056893844, w: 0.99957806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Seg1_jnt_con_
+      parentName: Ashlee_DEF__L_Finger_Seg1_jnt_drvr
+      position: {x: 7.105427e-17, y: -2.842171e-16, z: -8.5265126e-16}
+      rotation: {x: -6.3837824e-16, y: -5.2735594e-16, z: 6.938894e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Seg2_jnt_drvr
+      parentName: Ashlee_DEF__L_Finger_Seg1_jnt_con_
+      position: {x: -3.5527135e-16, y: -7.105427e-16, z: -0.054647893}
+      rotation: {x: -0.087597765, y: 0.009635416, z: 0.0019965123, w: 0.99610734}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Seg2_jnt_con_
+      parentName: Ashlee_DEF__L_Finger_Seg2_jnt_drvr
+      position: {x: -0, y: -2.842171e-16, z: 2.842171e-16}
+      rotation: {x: 2.7755576e-16, y: -2.7755576e-17, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Finger_Seg3_jnt_drvr
+      parentName: Ashlee_DEF__L_Finger_Seg2_jnt_con_
+      position: {x: -7.105427e-16, y: -2.842171e-16, z: -0.037778065}
+      rotation: {x: -0.09627713, y: -0.015923703, z: 0.0002857259, w: 0.99522716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_FK_Thumb_null
+      parentName: Ashlee_DEF__L_NB_Wrist_01_jnt
+      position: {x: -0.02394972, y: 0.0056415987, z: -0.023932096}
+      rotation: {x: 0.123164505, y: -0.2584922, z: 0.032366972, w: 0.9575828}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Thumb_null
+      parentName: Ashlee_DEF__L_FK_Thumb_null
+      position: {x: 0.00012079545, y: -0.0017760786, z: -7.105427e-17}
+      rotation: {x: 9.62965e-35, y: 6.938894e-18, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Thumb_Root_jnt
+      parentName: Ashlee_DEF__L_Thumb_null
+      position: {x: 1.4210854e-16, y: 1.4210854e-15, z: 3.5527135e-16}
+      rotation: {x: -0.1017615, y: 0.71744156, z: 0.17007762, w: 0.66782916}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Thumb_Base_jnt
+      parentName: Ashlee_DEF__L_NB_FK_Thumb_Root_jnt
+      position: {x: -3.5527135e-16, y: 3.9648284e-14, z: -0.062137716}
+      rotation: {x: -0.21152286, y: -0.16153441, z: 0.61108494, w: 0.74547964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Thumb_Mid_jnt
+      parentName: Ashlee_DEF__L_NB_FK_Thumb_Base_jnt
+      position: {x: -1.9895197e-15, y: 9.237055e-16, z: -0.06701037}
+      rotation: {x: -0.26048383, y: 0.05574364, z: 0.08128864, w: 0.9604337}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_FK_Thumb_End_jnt
+      parentName: Ashlee_DEF__L_NB_FK_Thumb_Mid_jnt
+      position: {x: -2.842171e-16, y: 9.237055e-16, z: -0.053623106}
+      rotation: {x: 3.913536e-15, y: 3.205769e-15, z: -8.326673e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Thumb_Controls
+      parentName: Ashlee_DEF__L_FK_Thumb_null
+      position: {x: -0.06514494, y: -0.018950203, z: -0.063860886}
+      rotation: {x: -0.1279149, y: 0.33934128, z: -0.04272355, w: 0.93094575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Thumb_Palm_Base_con_
+      parentName: Ashlee_DEF__L_Thumb_Controls
+      position: {x: 0.0074889935, y: -0.0009859063, z: 0.092605196}
+      rotation: {x: -0.09767513, y: 0.4151741, z: 0.24410467, w: 0.8709208}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Thumb_Seg1_jnt_drvr
+      parentName: Ashlee_DEF__L_Thumb_Palm_Base_con_
+      position: {x: -2.6190256e-10, y: -0.0000000010723085, z: -0.062137716}
+      rotation: {x: -0.21152286, y: -0.16153441, z: 0.61108494, w: 0.74547964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Thumb_Seg1_jnt_con_
+      parentName: Ashlee_DEF__L_Thumb_Seg1_jnt_drvr
+      position: {x: 2.842171e-16, y: -6.3948843e-16, z: -1.4210854e-16}
+      rotation: {x: 5.551115e-17, y: -3.469447e-16, z: 2.0816682e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_Thumb_Seg2_jnt_drvr
+      parentName: Ashlee_DEF__L_Thumb_Seg1_jnt_con_
+      position: {x: 2.4640753e-10, y: -3.2805116e-11, z: -0.06701037}
+      rotation: {x: -0.26048383, y: 0.05574364, z: 0.08128864, w: 0.9604337}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__L_NB_Wrist_02_jnt
+      parentName: Ashlee_DEF__L_NB_Wrist_01_jnt
+      position: {x: 2.842171e-16, y: 1.4210854e-16, z: -0.061250977}
+      rotation: {x: -7.687859e-12, y: -0.7165543, z: -7.899236e-12, w: 0.69753134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Arm_no_bendy_null
+      parentName: Ashlee_DEF__BLND_Chest_jnt
+      position: {x: -0.036347747, y: -0.039321672, z: -0.12372103}
+      rotation: {x: 1.6876406e-12, y: 0.7092151, z: -0.7049922, w: 1.6775054e-12}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Arm_algn
+      parentName: Ashlee_DEF__R_NB_Arm_no_bendy_null
+      position: {x: 0.10585341, y: 0.021844773, z: -0.01878496}
+      rotation: {x: 0, y: 2.7755576e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Arm_aim_upv_algn
+      parentName: Ashlee_DEF__R_NB_IK_Arm_algn
+      position: {x: -1.7763568e-17, y: 2.842171e-16, z: 3.5527136e-17}
+      rotation: {x: 0.84662855, y: 0.38698915, z: -0.088401824, w: -0.35446393}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Arm_Twist_null
+      parentName: Ashlee_DEF__R_NB_IK_Arm_aim_upv_algn
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1.2490009e-16, y: -4.9960036e-16, z: 6.240013e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Shoulder_jnt
+      parentName: Ashlee_DEF__R_NB_IK_Arm_algn
+      position: {x: -1.7763568e-17, y: 2.842171e-16, z: 3.5527136e-17}
+      rotation: {x: -0.6811055, y: -0.23372352, z: 0.22827029, w: 0.6552566}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Elbow_jnt
+      parentName: Ashlee_DEF__R_NB_IK_Shoulder_jnt
+      position: {x: 5.1159075e-15, y: 2.842171e-16, z: -0.22498459}
+      rotation: {x: -0.7537662, y: -0.0018492748, z: -0.000019149325, w: 0.65714014}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_IK_Wrist_Tip_jnt
+      parentName: Ashlee_DEF__R_NB_IK_Elbow_jnt
+      position: {x: 1.0381029e-12, y: -3.6379787e-14, z: -0.19977167}
+      rotation: {x: -0.08244521, y: -0.15128462, z: -0.6666853, w: 0.72515273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_null
+      parentName: Ashlee_DEF__R_NB_Arm_no_bendy_null
+      position: {x: 0.15231438, y: 0.012115915, z: -0.02767006}
+      rotation: {x: 0, y: 2.7755576e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Shoulder_jnt
+      parentName: Ashlee_DEF__R_NB_FK_null
+      position: {x: -0.04646096, y: 0.009728857, z: 0.008885098}
+      rotation: {x: 0.7455961, y: 0.26802486, z: -0.39573914, w: -0.46437016}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Elbow_jnt
+      parentName: Ashlee_DEF__R_NB_FK_Shoulder_jnt
+      position: {x: 5.4001247e-15, y: -1.4566126e-15, z: -0.22498459}
+      rotation: {x: -0.108343355, y: -0.00026580662, z: -0.000028976167, w: 0.9941135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Wrist_Tip_jnt
+      parentName: Ashlee_DEF__R_NB_FK_Elbow_jnt
+      position: {x: 3.8369305e-15, y: 3.5527135e-16, z: -0.19977167}
+      rotation: {x: -0.050932575, y: 0.13951218, z: -0.6948776, w: 0.7036244}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_BD_Arm_null
+      parentName: Ashlee_DEF__R_NB_Arm_no_bendy_null
+      position: {x: 0.15231438, y: 0.012115915, z: -0.02767006}
+      rotation: {x: 0, y: 2.7755576e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_IK_Arm_nb_forearm_twist_algn2
+      parentName: Ashlee_DEF__R_NB_BD_Arm_null
+      position: {x: 0.07217133, y: -0.13904676, z: 0.21397968}
+      rotation: {x: 0.46140096, y: 0.8497843, z: -0.15283434, w: 0.20400378}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_IK_Arm_nb_forearm_twist_goal2
+      parentName: Ashlee_DEF__R_IK_Arm_nb_forearm_twist_algn2
+      position: {x: 9.947598e-16, y: 1.0516033e-14, z: 4.440892e-15}
+      rotation: {x: -1.4831886e-16, y: -6.0368377e-15, z: -4.5709964e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_IK_Arm_nb_forearm_twist_algn1
+      parentName: Ashlee_DEF__R_NB_BD_Arm_null
+      position: {x: 0.13645351, y: -0.12954919, z: -0.015317159}
+      rotation: {x: -0.24680923, y: -0.71629435, z: -0.17372365, w: 0.62914836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_IK_Arm_nb_forearm_twist_goal1
+      parentName: Ashlee_DEF__R_IK_Arm_nb_forearm_twist_algn1
+      position: {x: 0.04653076, y: -0.16551347, z: 0.009728365}
+      rotation: {x: -0.3234026, y: -0.7166213, z: 0.082575664, w: 0.61240995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Forearm_Twist_null
+      parentName: Ashlee_DEF__R_NB_BD_Arm_null
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 2.7755576e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_BLND_Forearm_Twist_01_jnt
+      parentName: Ashlee_DEF__R_Forearm_Twist_null
+      position: {x: 0.09241078, y: -0.16708507, z: 0.017223613}
+      rotation: {x: 0.43429726, y: 0.89657027, z: -0.04122889, w: 0.076471426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_BLND_Forearm_Twist_02_jnt
+      parentName: Ashlee_DEF__R_NB_BLND_Forearm_Twist_01_jnt
+      position: {x: -0, y: 0, z: -0.09988585}
+      rotation: {x: -4.856156e-16, y: -1.0195215e-17, z: 0.020989792, w: 0.9997797}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_BLND_Forearm_Twist_05_tip_jnt
+      parentName: Ashlee_DEF__R_NB_BLND_Forearm_Twist_02_jnt
+      position: {x: -2.842171e-16, y: -2.1316282e-16, z: -0.099865876}
+      rotation: {x: 3.6016055e-16, y: 3.532154e-17, z: 0.020985596, w: 0.99977976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_BLND_Shoulder_jnt
+      parentName: Ashlee_DEF__R_NB_BD_Arm_null
+      position: {x: -0.04646096, y: 0.009728857, z: 0.008885098}
+      rotation: {x: -0.6811055, y: -0.23372352, z: 0.22827029, w: 0.6552566}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_BLND_Elbow_jnt
+      parentName: Ashlee_DEF__R_NB_BLND_Shoulder_jnt
+      position: {x: -4.5616844e-14, y: -4.263256e-15, z: -0.22498459}
+      rotation: {x: -0.7537662, y: -0.0018492748, z: -0.000019149325, w: 0.65714014}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_IK_Arm_nb_forearm_twist_targ1
+      parentName: Ashlee_DEF__R_NB_BLND_Elbow_jnt
+      position: {x: -3.3711217e-10, y: -0.000000009772396, z: 0.000000040504954}
+      rotation: {x: 0.000000019977886, y: 0.000000021414138, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_BLND_Wrist_Tip_jnt
+      parentName: Ashlee_DEF__R_NB_BLND_Elbow_jnt
+      position: {x: 2.8421708e-15, y: -2.8421708e-15, z: -0.19977167}
+      rotation: {x: -0.08244521, y: -0.15128462, z: -0.6666853, w: 0.72515273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Hand_nb_con_
+      parentName: Ashlee_DEF__R_NB_BLND_Wrist_Tip_jnt
+      position: {x: -0.00015828274, y: 0.00030806274, z: -0.28546306}
+      rotation: {x: -0.003318097, y: 0.70833766, z: -0.000010524348, w: 0.7058659}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Hand_null
+      parentName: Ashlee_DEF__R_NB_BLND_Wrist_Tip_jnt
+      position: {x: 0.0000000025080271, y: 7.093234e-11, z: 0.00000001759898}
+      rotation: {x: -0.002322018, y: -0.011703522, z: 0.0023702555, w: 0.99992603}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Palm_algn
+      parentName: Ashlee_DEF__R_Hand_null
+      position: {x: -0.0000000020952553, y: 3.8014036e-14, z: -0.000000017653006}
+      rotation: {x: 0.002322018, y: 0.011703522, z: -0.0023702555, w: 0.99992603}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Wrist_01_jnt
+      parentName: Ashlee_DEF__R_Palm_algn
+      position: {x: -0.000000018416994, y: 2.0079867e-11, z: -0.0000000024713356}
+      rotation: {x: 2.6020852e-18, y: 1.7491356e-35, z: 6.7220535e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Finger_null_2
+      parentName: Ashlee_DEF__R_NB_Wrist_01_jnt
+      position: {x: -0.019081991, y: 0.005540527, z: -0.061175365}
+      rotation: {x: -0.0032695155, y: 0.7083377, z: 0.0005658171, w: 0.705866}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Finger_null_2_2
+      parentName: Ashlee_DEF__R_FK_Finger_null_2
+      position: {x: -0.00012079545, y: -0.0017760786, z: -1.8543318e-11}
+      rotation: {x: 3.046608e-17, y: 1.3877788e-17, z: 1.3010426e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Finger_Palm_Base_jnt_2
+      parentName: Ashlee_DEF__R_FK_Finger_null_2_2
+      position: {x: -0.016739083, y: 0.020156294, z: -0.027504856}
+      rotation: {x: 0.028128045, y: -0.70677036, z: 0.028145844, w: 0.70632315}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Finger_Base_jnt_2
+      parentName: Ashlee_DEF__R_NB_FK_Finger_Palm_Base_jnt_2
+      position: {x: 1.4210854e-16, y: 2.2737367e-15, z: -0.06368713}
+      rotation: {x: -0.515877, y: 0.04279129, z: 0.08509215, w: 0.85135144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Finger_Mid_jnt_2
+      parentName: Ashlee_DEF__R_NB_FK_Finger_Base_jnt_2
+      position: {x: 5.6417094e-14, y: -1.4210854e-15, z: -0.04755171}
+      rotation: {x: -0.4042432, y: 0.06572083, z: 0.030460218, w: 0.91177875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Finger_Top_jnt_2
+      parentName: Ashlee_DEF__R_NB_FK_Finger_Mid_jnt_2
+      position: {x: 2.842171e-16, y: -5.684342e-16, z: -0.032801233}
+      rotation: {x: -0.5713021, y: 0.030186348, z: 0.04922578, w: 0.818706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Finger_End_jnt_2
+      parentName: Ashlee_DEF__R_NB_FK_Finger_Top_jnt_2
+      position: {x: 1.7053025e-15, y: -1.2789769e-15, z: -0.0497514}
+      rotation: {x: 0.0039947624, y: 0.7070955, z: 0.0039947624, w: 0.7070955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Controls_2
+      parentName: Ashlee_DEF__R_FK_Finger_null_2
+      position: {x: 0.056480773, y: -0.0017760786, z: -1.8549712e-11}
+      rotation: {x: -0.0039927647, y: -0.7070955, z: -0.0039967597, w: 0.7070955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Palm_Base_con__2
+      parentName: Ashlee_DEF__R_Finger_Controls_2
+      position: {x: -0.027504973, y: 0.019326199, z: 0.07356371}
+      rotation: {x: 0.045435984, y: -0.00031617112, z: 0.0000136276885, w: 0.99896723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Seg1_jnt_drvr_2
+      parentName: Ashlee_DEF__R_Finger_Palm_Base_con__2
+      position: {x: 9.663381e-15, y: 2.4158453e-15, z: -0.06368713}
+      rotation: {x: -0.14451109, y: 0.017683363, z: 0.07793653, w: 0.98627067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Seg1_jnt_con__2
+      parentName: Ashlee_DEF__R_Finger_Seg1_jnt_drvr_2
+      position: {x: 1.4210854e-16, y: 7.81597e-16, z: -1.811884e-15}
+      rotation: {x: -0.38393432, y: 0.05505794, z: 0.014633885, w: 0.9216013}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Seg2_jnt_drvr_2
+      parentName: Ashlee_DEF__R_Finger_Seg1_jnt_con__2
+      position: {x: 8.92399e-12, y: -9.877254e-13, z: -0.04755171}
+      rotation: {x: -0.055996425, y: 0.0003832398, z: -0.0017708931, w: 0.99842936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Seg2_jnt_con__2
+      parentName: Ashlee_DEF__R_Finger_Seg2_jnt_drvr_2
+      position: {x: -1.4210854e-16, y: -1.6342482e-15, z: -6.0396133e-16}
+      rotation: {x: -0.35267997, y: 0.06284662, z: 0.035552245, w: 0.932954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Seg3_jnt_drvr_2
+      parentName: Ashlee_DEF__R_Finger_Seg2_jnt_con__2
+      position: {x: -9.497569e-11, y: -0.0000000011134795, z: -0.032801233}
+      rotation: {x: -0.108778395, y: 0.011735048, z: 0.000599574, w: 0.99399656}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Finger_null_1
+      parentName: Ashlee_DEF__R_NB_Wrist_01_jnt
+      position: {x: 0.0052808733, y: 0.005540527, z: -0.06094703}
+      rotation: {x: -0.003291084, y: 0.67687404, z: 0.00042266425, w: 0.7360914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Finger_null_1_2
+      parentName: Ashlee_DEF__R_FK_Finger_null_1
+      position: {x: -0.00012079545, y: -0.0017760786, z: 1.6896705e-13}
+      rotation: {x: -3.550762e-17, y: -6.938894e-18, z: -4.3368087e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Finger_Palm_Base_jnt_1
+      parentName: Ashlee_DEF__R_FK_Finger_null_1_2
+      position: {x: -0.01564998, y: 0.035331246, z: -0.0045660115}
+      rotation: {x: 0.054442644, y: -0.69890493, z: 0.053506766, w: 0.71112937}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Finger_Base_jnt_1
+      parentName: Ashlee_DEF__R_NB_FK_Finger_Palm_Base_jnt_1
+      position: {x: 4.2632563e-16, y: 9.947598e-16, z: -0.07256919}
+      rotation: {x: -0.45777324, y: 0.08804527, z: 0.014136709, w: 0.88458574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Finger_Mid_jnt_1
+      parentName: Ashlee_DEF__R_NB_FK_Finger_Base_jnt_1
+      position: {x: -5.684342e-16, y: -7.81597e-16, z: -0.051222224}
+      rotation: {x: -0.35180992, y: 0.020314286, z: -0.0131887775, w: 0.9357581}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Finger_Top_jnt_1
+      parentName: Ashlee_DEF__R_NB_FK_Finger_Mid_jnt_1
+      position: {x: 4.2632563e-16, y: 2.842171e-16, z: -0.039744858}
+      rotation: {x: -0.4649409, y: 0.042817447, z: -0.015332032, w: 0.8841728}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Finger_End_jnt_1
+      parentName: Ashlee_DEF__R_NB_FK_Finger_Top_jnt_1
+      position: {x: 1.9895197e-15, y: 2.1316282e-16, z: -0.05539673}
+      rotation: {x: 0.0039947624, y: 0.7070955, z: 0.0039947624, w: 0.7070955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Controls_1
+      parentName: Ashlee_DEF__R_FK_Finger_null_1
+      position: {x: 0.056480773, y: -0.0017760786, z: 1.6896705e-13}
+      rotation: {x: -0.0039927647, y: -0.7070955, z: -0.0039967597, w: 0.7070955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Palm_Base_con__1
+      parentName: Ashlee_DEF__R_Finger_Controls_1
+      position: {x: -0.0045662136, y: 0.034512613, z: 0.07264613}
+      rotation: {x: 0.08196327, y: 0.008647816, z: -0.00061010744, w: 0.99659765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Seg1_jnt_drvr_1
+      parentName: Ashlee_DEF__R_Finger_Palm_Base_con__1
+      position: {x: 2.4868996e-13, y: -1.7829932e-11, z: -0.07256919}
+      rotation: {x: -0.19710979, y: 0.0036269808, z: 0.0019849136, w: 0.9803727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Seg1_jnt_con__1
+      parentName: Ashlee_DEF__R_Finger_Seg1_jnt_drvr_1
+      position: {x: 1.4210854e-16, y: 0, z: 4.2632563e-16}
+      rotation: {x: -0.2743044, y: 0.08123095, z: 0.027797665, w: 0.95780265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Seg2_jnt_drvr_1
+      parentName: Ashlee_DEF__R_Finger_Seg1_jnt_con__1
+      position: {x: 3.461764e-13, y: 7.012062e-11, z: -0.051222224}
+      rotation: {x: -0.061492752, y: 0.000967311, z: -0.004801672, w: 0.9980955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Seg2_jnt_con__1
+      parentName: Ashlee_DEF__R_Finger_Seg2_jnt_drvr_1
+      position: {x: 1.4210854e-16, y: -1.4210854e-16, z: -2.1316282e-16}
+      rotation: {x: -0.29368237, y: 0.018492166, z: -0.007761584, w: 0.9556927}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Seg3_jnt_drvr_1
+      parentName: Ashlee_DEF__R_Finger_Seg2_jnt_con__1
+      position: {x: 5.262137e-12, y: 2.1425244e-11, z: -0.039744858}
+      rotation: {x: -0.08617398, y: 0.019080982, z: 0.00016238383, w: 0.9960974}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Finger_null
+      parentName: Ashlee_DEF__R_NB_Wrist_01_jnt
+      position: {x: 0.029531127, y: 0.005540527, z: -0.0585962}
+      rotation: {x: -0.003306388, y: 0.644122, z: 0.0002787069, w: 0.7649156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Finger_null_2_3
+      parentName: Ashlee_DEF__R_FK_Finger_null
+      position: {x: -0.00012079545, y: -0.0017760786, z: 1.1908696e-13}
+      rotation: {x: -8.509293e-18, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Finger_Palm_Base_jnt
+      parentName: Ashlee_DEF__R_FK_Finger_null_2_3
+      position: {x: -0.0087198345, y: 0.027576767, z: 0.01979274}
+      rotation: {x: -0.012500227, y: -0.69415855, z: -0.012058073, w: 0.71961254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Finger_Base_jnt
+      parentName: Ashlee_DEF__R_NB_FK_Finger_Palm_Base_jnt
+      position: {x: 1.4210854e-16, y: -2.0605739e-15, z: -0.06756029}
+      rotation: {x: -0.057244357, y: 0.093692526, z: -0.06472739, w: 0.99184436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Finger_Mid_jnt
+      parentName: Ashlee_DEF__R_NB_FK_Finger_Base_jnt
+      position: {x: 7.105427e-16, y: 1.7053025e-15, z: -0.054647893}
+      rotation: {x: -0.57472384, y: -0.0541518, z: -0.009027017, w: 0.8165039}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Finger_Top_jnt
+      parentName: Ashlee_DEF__R_NB_FK_Finger_Mid_jnt
+      position: {x: -1.4210854e-16, y: 1.065814e-15, z: -0.037778065}
+      rotation: {x: -0.42566317, y: -0.015748633, z: -0.01302995, w: 0.9046508}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Finger_End_jnt
+      parentName: Ashlee_DEF__R_NB_FK_Finger_Top_jnt
+      position: {x: 1.4210854e-16, y: -9.237055e-16, z: -0.041709237}
+      rotation: {x: 0.0039947624, y: 0.7070955, z: 0.0039947624, w: 0.7070955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Controls
+      parentName: Ashlee_DEF__R_FK_Finger_null
+      position: {x: 0.056480773, y: -0.0017760786, z: 1.1922906e-13}
+      rotation: {x: -0.0039927647, y: -0.7070955, z: -0.0039967597, w: 0.7070955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Palm_Base_con_
+      parentName: Ashlee_DEF__R_Finger_Controls
+      position: {x: 0.019792581, y: 0.026837071, z: 0.06562881}
+      rotation: {x: -0.011717436, y: 0.017996598, z: 0.000417152, w: 0.99976933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Seg1_jnt_drvr
+      parentName: Ashlee_DEF__R_Finger_Palm_Base_con_
+      position: {x: 1.563194e-15, y: -7.81597e-16, z: -0.06756029}
+      rotation: {x: -0.028971208, y: 0.0020140407, z: -0.0005689384, w: 0.99957806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Seg1_jnt_con_
+      parentName: Ashlee_DEF__R_Finger_Seg1_jnt_drvr
+      position: {x: 1.4210854e-16, y: -7.105427e-17, z: -4.2632563e-16}
+      rotation: {x: -0.028408213, y: 0.093498036, z: -0.061536677, w: 0.9933098}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Seg2_jnt_drvr
+      parentName: Ashlee_DEF__R_Finger_Seg1_jnt_con_
+      position: {x: 7.105427e-16, y: 8.5265126e-16, z: -0.054647893}
+      rotation: {x: -0.087597765, y: -0.009635416, z: -0.0019965123, w: 0.99610734}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Seg2_jnt_con_
+      parentName: Ashlee_DEF__R_Finger_Seg2_jnt_drvr
+      position: {x: 1.4210854e-16, y: 2.842171e-16, z: 4.2632563e-16}
+      rotation: {x: -0.5009416, y: -0.046430346, z: -0.0065675913, w: 0.86420983}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Finger_Seg3_jnt_drvr
+      parentName: Ashlee_DEF__R_Finger_Seg2_jnt_con_
+      position: {x: 7.105427e-16, y: 1.4210854e-16, z: -0.037778065}
+      rotation: {x: -0.09627713, y: 0.015923703, z: -0.0002857259, w: 0.99522716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_FK_Thumb_null
+      parentName: Ashlee_DEF__R_NB_Wrist_01_jnt
+      position: {x: 0.02394972, y: 0.0056415987, z: -0.023932096}
+      rotation: {x: 0.123164505, y: 0.2584922, z: -0.032366972, w: 0.9575828}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Thumb_null
+      parentName: Ashlee_DEF__R_FK_Thumb_null
+      position: {x: -0.00012079545, y: -0.0017760786, z: 6.6080475e-15}
+      rotation: {x: 0, y: 0, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Thumb_Root_jnt
+      parentName: Ashlee_DEF__R_Thumb_null
+      position: {x: -0, y: 2.1316282e-16, z: 1.1368684e-15}
+      rotation: {x: -0.1017615, y: -0.71744156, z: -0.17007762, w: 0.66782916}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Thumb_Base_jnt
+      parentName: Ashlee_DEF__R_NB_FK_Thumb_Root_jnt
+      position: {x: -8.881784e-16, y: -1.4210854e-15, z: -0.062137716}
+      rotation: {x: -0.21152286, y: 0.16153443, z: -0.61108494, w: 0.74547964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Thumb_Mid_jnt
+      parentName: Ashlee_DEF__R_NB_FK_Thumb_Base_jnt
+      position: {x: -1.4210854e-16, y: 1.065814e-15, z: -0.06701038}
+      rotation: {x: -0.26048383, y: -0.055743653, z: -0.08128866, w: 0.9604338}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_FK_Thumb_End_jnt
+      parentName: Ashlee_DEF__R_NB_FK_Thumb_Mid_jnt
+      position: {x: -1.3474277e-10, y: -5.644395e-11, z: -0.053623106}
+      rotation: {x: -5.814793e-15, y: -1.1310397e-14, z: 1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Thumb_Controls
+      parentName: Ashlee_DEF__R_FK_Thumb_null
+      position: {x: 0.06514494, y: -0.018950203, z: -0.063860886}
+      rotation: {x: -0.1279149, y: -0.33934128, z: 0.04272355, w: 0.93094575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Thumb_Palm_Base_con_
+      parentName: Ashlee_DEF__R_Thumb_Controls
+      position: {x: -0.0074889935, y: -0.0009859063, z: 0.092605196}
+      rotation: {x: -0.09767513, y: -0.4151741, z: -0.24410467, w: 0.8709208}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Thumb_Seg1_jnt_drvr
+      parentName: Ashlee_DEF__R_Thumb_Palm_Base_con_
+      position: {x: -2.61917e-10, y: 0.000000001072345, z: -0.062137716}
+      rotation: {x: -0.21152286, y: 0.16153443, z: -0.61108494, w: 0.74547964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Thumb_Seg1_jnt_con_
+      parentName: Ashlee_DEF__R_Thumb_Seg1_jnt_drvr
+      position: {x: 7.105427e-16, y: -3.5527135e-16, z: -1.4210854e-16}
+      rotation: {x: 1.3877788e-16, y: -6.1062266e-16, z: -2.0469737e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_Thumb_Seg2_jnt_drvr
+      parentName: Ashlee_DEF__R_Thumb_Seg1_jnt_con_
+      position: {x: 2.4640953e-10, y: 3.2810234e-11, z: -0.06701038}
+      rotation: {x: -0.26048383, y: -0.055743653, z: -0.08128866, w: 0.9604338}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__R_NB_Wrist_02_jnt
+      parentName: Ashlee_DEF__R_NB_Wrist_01_jnt
+      position: {x: 1.4210854e-16, y: 0, z: -0.061250977}
+      rotation: {x: -7.6891505e-12, y: 0.7165543, z: 7.898118e-12, w: 0.69753134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Ashlee_grp
+      parentName: Null
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Head
+      parentName: Ashlee_DEF__Ashlee_grp
+      position: {x: -0.033455685, y: 0.08627153, z: 0.08162128}
+      rotation: {x: 0.123478666, y: -2.7358923e-16, z: 3.404296e-17, w: 0.99234724}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Hat
+      parentName: Ashlee_DEF__Head
+      position: {x: 2.4702462e-17, y: 1.7920306, z: 1.0658141e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Head_grp
+      parentName: Ashlee_DEF__Head
+      position: {x: -7.2719605e-17, y: 1.1194342, z: 0.031294957}
+      rotation: {x: 0.003441872, y: -2.1705186e-17, z: -6.105282e-18, w: 0.9999941}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Eyelash_grp
+      parentName: Ashlee_DEF__Head_grp
+      position: {x: 8.90954e-17, y: -1.1196232, z: -0.023588363}
+      rotation: {x: -0.003441872, y: -6.072242e-17, z: 1.9594172e-18, w: 0.9999941}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Eyelash_Lf
+      parentName: Ashlee_DEF__Eyelash_grp
+      position: {x: -0.16241094, y: 1.4462733, z: -0.1296168}
+      rotation: {x: 5.551115e-17, y: -1.2037062e-34, z: -2.1684043e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Eyelash_Rt
+      parentName: Ashlee_DEF__Eyelash_grp
+      position: {x: -0.16241094, y: 1.4462733, z: 0.1296168}
+      rotation: {x: 5.551115e-17, y: -1.2037062e-34, z: -2.1684043e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__eye_Lf_grp
+      parentName: Ashlee_DEF__Head_grp
+      position: {x: -0.16201152, y: 0.2636503, z: 0.13059302}
+      rotation: {x: -0.003441872, y: -3.731685e-21, z: 1.0841958e-18, w: 0.9999941}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Cornea_Lf
+      parentName: Ashlee_DEF__eye_Lf_grp
+      position: {x: -0, y: 0, z: -7.105427e-17}
+      rotation: {x: 2.8211864e-37, y: 4.3368087e-19, z: -6.505213e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Pupil_Lf
+      parentName: Ashlee_DEF__eye_Lf_grp
+      position: {x: -3.5527136e-17, y: -8.5265126e-16, z: 0.06}
+      rotation: {x: 2.8211864e-37, y: 4.3368087e-19, z: -6.505213e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Bulb_Lf
+      parentName: Ashlee_DEF__eye_Lf_grp
+      position: {x: -0, y: 0, z: -7.105427e-17}
+      rotation: {x: 0.7071068, y: -6.133174e-19, z: 3.4045955e-34, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__eye_Rt_grp
+      parentName: Ashlee_DEF__Head_grp
+      position: {x: 0.16191779, y: 0.2636503, z: 0.13059302}
+      rotation: {x: -0.003441872, y: -3.731685e-21, z: 1.0841958e-18, w: 0.9999941}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Cornea_Rt
+      parentName: Ashlee_DEF__eye_Rt_grp
+      position: {x: -0, y: 0, z: -7.105427e-17}
+      rotation: {x: 2.8211864e-37, y: 4.3368087e-19, z: -6.505213e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Pupil_Lf_2
+      parentName: Ashlee_DEF__eye_Rt_grp
+      position: {x: -0, y: -2.842171e-16, z: 0.06}
+      rotation: {x: 2.8211864e-37, y: 4.3368087e-19, z: -6.505213e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Bulb_Rt
+      parentName: Ashlee_DEF__eye_Rt_grp
+      position: {x: -0, y: 0, z: -7.105427e-17}
+      rotation: {x: 0.7071068, y: -6.133174e-19, z: 3.4045955e-34, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Hair
+      parentName: Ashlee_DEF__Head_grp
+      position: {x: 8.7152504e-17, y: -1.1196232, z: -0.023588363}
+      rotation: {x: -0.003441872, y: 8.576542e-19, z: 2.8218944e-18, w: 0.9999941}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Brows_Lf
+      parentName: Ashlee_DEF__Head_grp
+      position: {x: 8.7152504e-17, y: -1.1196232, z: -0.023588363}
+      rotation: {x: -0.003441872, y: 8.576542e-19, z: 2.8218944e-18, w: 0.9999941}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Brows_Rt
+      parentName: Ashlee_DEF__Head_grp
+      position: {x: 9.076073e-17, y: -1.1196232, z: -0.023588363}
+      rotation: {x: -0.003441872, y: 8.576542e-19, z: 2.8218944e-18, w: 0.9999941}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__upperTeeth
+      parentName: Ashlee_DEF__Head_grp
+      position: {x: 8.7707615e-17, y: -1.1196232, z: -0.023588363}
+      rotation: {x: -0.003441872, y: 8.576542e-19, z: 2.8218944e-18, w: 0.9999941}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Jaw_grp
+      parentName: Ashlee_DEF__Ashlee_grp
+      position: {x: -0.033455685, y: 1.2908431, z: 0.49644446}
+      rotation: {x: -2.808435e-16, y: 0.8986365, z: 0.43869397, w: 7.148686e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Tongue
+      parentName: Ashlee_DEF__Jaw_grp
+      position: {x: 1.2129186e-16, y: -1.0679947, z: -0.6945922}
+      rotation: {x: -8.908093e-17, y: 0.9459288, z: 0.3243743, w: 7.100402e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__lowerTeeth
+      parentName: Ashlee_DEF__Jaw_grp
+      position: {x: 1.2184697e-16, y: -1.0679947, z: -0.6945922}
+      rotation: {x: -8.908093e-17, y: 0.9459288, z: 0.3243743, w: 7.100402e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Astrid
+      parentName: Ashlee_DEF__Ashlee_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Star_grp
+      parentName: Ashlee_DEF__Ashlee_grp
+      position: {x: -0.10049114, y: 0.9503417, z: 0.1544758}
+      rotation: {x: -0.21319343, y: -0.21066065, z: -0.011130264, w: 0.95396376}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Star
+      parentName: Ashlee_DEF__Star_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 8.326673e-17, y: 8.326673e-17, z: 1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Dx
+      parentName: Ashlee_DEF__Ashlee_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Dx_2
+      parentName: Ashlee_DEF__Dx
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Sx
+      parentName: Ashlee_DEF__Ashlee_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Sx_2
+      parentName: Ashlee_DEF__Sx
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Sx2
+      parentName: Ashlee_DEF__Ashlee_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Sx2_2
+      parentName: Ashlee_DEF__Sx2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Pants
+      parentName: Ashlee_DEF__Ashlee_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Pants_2
+      parentName: Ashlee_DEF__Pants
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Shirt
+      parentName: Ashlee_DEF__Ashlee_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Shirt_2
+      parentName: Ashlee_DEF__Shirt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__shoe_Lf
+      parentName: Ashlee_DEF__Ashlee_grp
+      position: {x: -0.10126584, y: 0.111610755, z: 0.14643526}
+      rotation: {x: 0.39501184, y: -0.042913623, z: 0.021636339, w: 0.91741806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Lace_Lf_grp
+      parentName: Ashlee_DEF__shoe_Lf
+      position: {x: 0.006571168, y: 0.041036204, z: -0.09000261}
+      rotation: {x: -0.0024284108, y: 0.29407132, z: 0.95575285, w: -0.007255399}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Lace_Lf
+      parentName: Ashlee_DEF__Lace_Lf_grp
+      position: {x: 0.0055363677, y: 0.07095208, z: 0.07584304}
+      rotation: {x: -0.0024284108, y: 0.29407132, z: 0.95575285, w: 0.007255399}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__shoe_Lf_2
+      parentName: Ashlee_DEF__shoe_Lf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1.3877788e-17, y: -1.3877788e-17, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__shoe_Rt
+      parentName: Ashlee_DEF__Ashlee_grp
+      position: {x: 0.066343956, y: 0.46036217, z: 0.06901707}
+      rotation: {x: 0.72402155, y: -0.10509747, z: -0.054164685, w: 0.67956865}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Lace_Rt_grp
+      parentName: Ashlee_DEF__shoe_Rt
+      position: {x: -0.0068102228, y: 0.041036204, z: -0.09000261}
+      rotation: {x: -0.0024284108, y: 0.29407132, z: 0.95575285, w: -0.007255399}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__Lace_Rt
+      parentName: Ashlee_DEF__Lace_Rt_grp
+      position: {x: -0.0042412914, y: 0.07497464, z: 0.07310438}
+      rotation: {x: -0.0024284108, y: 0.29407132, z: 0.95575285, w: 0.007255399}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ashlee_DEF__shoe_Rt_2
+      parentName: Ashlee_DEF__shoe_Rt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -8.402567e-19, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Ashlee_DEF__Ashlee_grp
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -21,12 +21,15 @@ public class CharacterMovement : MonoBehaviour
     private Vector2 _lookDirection;
     private bool _canDuplicate = true;
     private GameObject _child;
+    private Animator _animator;
+    
 
     private void Start()
     {
         _controller = this.GetComponent<CharacterController>();
         _characterMain = this.GetComponent<CharacterMain>();
         _child = this.transform.GetChild(0).gameObject;
+        _animator = _child.GetComponent<Animator>();
         UpdateSpeed();
     }
 
@@ -40,10 +43,10 @@ public class CharacterMovement : MonoBehaviour
         
         _controller.Move(_movement * (Time.deltaTime * _characterSpeed));
         
-        // if (_movement != Vector3.zero)
-        // {
-        //     gameObject.transform.forward = _movement;
-        // }
+        if (_movement != Vector3.zero)
+        {
+            gameObject.transform.forward = _movement;
+        }
         
         // if (Input.GetButtonDown("Jump") && _isGrounded)
         // {
@@ -53,16 +56,16 @@ public class CharacterMovement : MonoBehaviour
         _velocity.y += _gravity * Time.deltaTime;
         _controller.Move(_velocity * Time.deltaTime);
 
-        if (_lookDirection != Vector2.zero)
-        {
-            float targetRotation = Mathf.Atan2(_lookDirection.x, _lookDirection.y) * Mathf.Rad2Deg;
-            _child.transform.rotation = Quaternion
-                .Lerp(
-                    _child.transform.rotation, 
-                    Quaternion.Euler(0, targetRotation, 0), 
-                    _rotationSpeed * Time.deltaTime
-                    );
-        }
+        // if (_lookDirection != Vector2.zero)
+        // {
+        //     float targetRotation = Mathf.Atan2(_lookDirection.x, _lookDirection.y) * Mathf.Rad2Deg;
+        //     _child.transform.rotation = Quaternion
+        //         .Lerp(
+        //             _child.transform.rotation, 
+        //             Quaternion.Euler(0, targetRotation, 0), 
+        //             _rotationSpeed * Time.deltaTime
+        //             );
+        // }
         
     }
     
@@ -71,6 +74,14 @@ public class CharacterMovement : MonoBehaviour
         Vector2 move = context.ReadValue<Vector2>();
         _movement.x = move.x;
         _movement.z = move.y;
+        if (move == Vector2.zero)
+        {
+            _animator.SetBool("IsRunning", false);
+        }
+        else
+        {
+            _animator.SetBool("IsRunning", true);
+        }
     }
 
     public void OnLook(InputAction.CallbackContext context)
