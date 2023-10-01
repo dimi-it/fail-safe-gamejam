@@ -48,7 +48,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -1498010087492872569, guid: 0d5e31f18c4f93f4ebe5c3daaea7df3d, type: 3}
+  m_Motion: {fileID: 0}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -77,7 +77,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -1498010087492872569, guid: 74c6b846a1f4ca14c9752cc6bfc090a7, type: 3}
+  m_Motion: {fileID: 0}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -106,7 +106,7 @@ AnimatorStateMachine:
     m_Position: {x: 240, y: 190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5889251132999008173}
-    m_Position: {x: 80, y: 390, z: 0}
+    m_Position: {x: 130, y: 350, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions:
@@ -155,7 +155,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -1498010087492872569, guid: ecf6aae0b09884e49ba33ac65ea4e3d0, type: 3}
+  m_Motion: {fileID: 0}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -208,7 +208,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -1498010087492872569, guid: a88fc8737896f184793dde66fdd07bad, type: 3}
+  m_Motion: {fileID: 0}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -270,7 +270,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mecha_Controller
+  m_Name: Ninja_Controller
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Shoot
@@ -474,7 +474,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -1498010087492872569, guid: 25e3f95f7e8e1af4490bd612fc7b9782, type: 3}
+  m_Motion: {fileID: 0}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
