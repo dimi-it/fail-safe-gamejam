@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74416737a62f142c6a4cc4abf17ba4ab, type: 3}
   m_Name: Base
   m_EditorClassIdentifier: 
-  health: 1
-  speed: 1.5
+  health: 2
+  speed: 2
   range: 1
   rateOfFire: 0
   damagePerBullet: 0

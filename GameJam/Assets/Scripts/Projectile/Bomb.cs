@@ -49,7 +49,9 @@ public class Bomb : MonoBehaviour
 
     private void OnDestroyAfterTime()
     {
-        Destroy(this.gameObject);
+        transform.GetChild(0).gameObject.SetActive(true);
+        GetComponent<MeshRenderer>().enabled = false;
+        Invoke(nameof(OnExploded), 1.2f);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -62,5 +64,10 @@ public class Bomb : MonoBehaviour
             return;
         other.gameObject.GetComponent<CharacterHealt>().
             DecreaseLife(_projectileMain.Damage);
+    }
+
+    private void OnExploded() 
+    {
+        Destroy(this.gameObject);
     }
 }

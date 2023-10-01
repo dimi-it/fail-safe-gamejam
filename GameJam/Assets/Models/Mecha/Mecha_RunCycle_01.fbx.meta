@@ -120,7 +120,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: Mecha_DEF__Mecha_grp
+    rootMotionBoneName: Mecha_DEF__Character
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

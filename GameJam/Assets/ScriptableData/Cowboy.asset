@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Cowboy
   m_EditorClassIdentifier: 
   health: 3
-  speed: 3
+  speed: 2
   range: 1
   rateOfFire: 2.5
   damagePerBullet: 1

@@ -8,107 +8,107 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Black
-    second: {fileID: 2100000, guid: 24dbb60f43afd874f8b7d62dde3d4404, type: 2}
+    second: {fileID: 2100000, guid: faa54f08ec510b84e9842d7871b100e1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Brows
-    second: {fileID: 2100000, guid: 61d71a59e3fc9394198c2eacaf769b5b, type: 2}
+    second: {fileID: 2100000, guid: d09734d1c0d60d747a9b4a82f6a879c3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Bulb
-    second: {fileID: 2100000, guid: 4add526bbfa0c8447b2fd9bced18d9ba, type: 2}
+    second: {fileID: 2100000, guid: 83f9e045ff8314f4c8522ae9597d4814, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Bulb_Green
-    second: {fileID: 2100000, guid: b013d80bdd5c1d64b8ae583e2e56357b, type: 2}
+    second: {fileID: 2100000, guid: f78fc2e7134765e4da53ec4447820dcf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Cornea
-    second: {fileID: 2100000, guid: 7dd18cb19fba4d841a09945eea29c39f, type: 2}
+    second: {fileID: 2100000, guid: a052a7f569b867f42a8a4ad4c6972c26, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Eyeleash
-    second: {fileID: 2100000, guid: 7628f79c22a53bf47a866317a4c95308, type: 2}
+    second: {fileID: 2100000, guid: d0901fe89568c8b48b23831a22398271, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Gold
-    second: {fileID: 2100000, guid: 394849ab6f9e4c349829ccafe724edac, type: 2}
+    second: {fileID: 2100000, guid: 69646d8f6d7edb14886e888fab1eeaa9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Hair
-    second: {fileID: 2100000, guid: 9f3f330b98da07143ba94c3a438c9b24, type: 2}
+    second: {fileID: 2100000, guid: f4a2d96f2afe5e245bd8b2871899f18a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Laces
-    second: {fileID: 2100000, guid: f495df84e99e56241ae39348326f6a40, type: 2}
+    second: {fileID: 2100000, guid: 33e7960c1fe41a2419d734e876fd79b7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Leather
-    second: {fileID: 2100000, guid: 254eb7ff27977d441aa9cb1c15bfdd22, type: 2}
+    second: {fileID: 2100000, guid: 347554395f51aa9448efbbcba6220ac6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Metale
-    second: {fileID: 2100000, guid: 060777237736aa446b5e93d74ccff6b7, type: 2}
+    second: {fileID: 2100000, guid: 2d651cde734ee85459c70a250abac33a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Pupil
-    second: {fileID: 2100000, guid: a1c9be936ed0de04ba133787d0bda7eb, type: 2}
+    second: {fileID: 2100000, guid: b4fd009dcf2d9404db32c50b32949645, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Shoes
-    second: {fileID: 2100000, guid: 71662eb30862d1e4cb32004eecebacb0, type: 2}
+    second: {fileID: 2100000, guid: 34564f7b69944da4eb12622d15eb008e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Shoes_Sole
-    second: {fileID: 2100000, guid: 084589e0929e78940a8d8f70dca097bf, type: 2}
+    second: {fileID: 2100000, guid: 8a3e38a7dba1ced4390402f17696fbd9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Skin
-    second: {fileID: 2100000, guid: d77771c3764a08846bc668173db69b46, type: 2}
+    second: {fileID: 2100000, guid: 1cda30f18951271489de5cb6f30db5ef, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Teeth
-    second: {fileID: 2100000, guid: 7a6104a954356154e82b647eb3509a91, type: 2}
+    second: {fileID: 2100000, guid: 6df3a3f1dd6927c4797cdf8ce5f9e866, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ashlee_DEF__Tongue_Gum
-    second: {fileID: 2100000, guid: cf355f21cba83b94abfdb098ff6559f9, type: 2}
+    second: {fileID: 2100000, guid: 7248fa0ae5d519043b0ee282a7d21811, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Base
-    second: {fileID: 2100000, guid: a6bb6fafa8710d34eb8bec3da589446b, type: 2}
+    second: {fileID: 2100000, guid: dae35e6e12193744cb7ddf3d813f22ea, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Drum
-    second: {fileID: 2100000, guid: 8c48fddcc2a352a408712fbe1f10bf27, type: 2}
+    second: {fileID: 2100000, guid: 45fd1742a1e0fe94385a18f1c36b7afc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: GoldAccent
-    second: {fileID: 2100000, guid: 889af40983004c544acc7045a42884dc, type: 2}
+    second: {fileID: 2100000, guid: ddf3990e79088684590cefbc775a5dc1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: WoodStock
-    second: {fileID: 2100000, guid: b5a66f300b30f26418cf6e71ce780ccb, type: 2}
+    second: {fileID: 2100000, guid: ee244bb697100d745a212978416dbef4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -128,7 +128,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
+    importConstraints: 1
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

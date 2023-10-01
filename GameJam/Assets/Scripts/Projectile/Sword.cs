@@ -14,6 +14,12 @@ public class Sword : MonoBehaviour
         Invoke(nameof(OnTimerElapsed), _timeRange);
     }
 
+    private void Update()
+    {
+
+        transform.RotateAround(_owner.transform.position, Vector3.up, 180 /( _timeRange * Time.deltaTime));
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         GameObject otherObj = other.gameObject;

@@ -6,7 +6,7 @@ using UnityEngine;
 public class CharacterHealt : MonoBehaviour
 {
     [SerializeField] private float _healt;
-    [SerializeField] private float _deathDuration = 2;
+    [SerializeField] private float _deathDuration = 2.5f;
     private CharacterMain _characterMain;
     public static event Action<int, float> OnDecreaseLife;
     public static event Action<int> OnDeath;

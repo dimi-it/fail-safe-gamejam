@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74416737a62f142c6a4cc4abf17ba4ab, type: 3}
   m_Name: Ninja
   m_EditorClassIdentifier: 
-  health: 3
+  health: 2
   speed: 3
   range: 2
   rateOfFire: 1

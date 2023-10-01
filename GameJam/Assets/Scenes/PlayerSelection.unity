@@ -507,7 +507,7 @@ MonoBehaviour:
   - {fileID: 1989889609}
   StartDelay: 1.5
   RestartDelay: 3
-  MaxPlayers: 2
+  MaxPlayers: 4
   PlayersAlive: 0
 --- !u!1 &999763417
 GameObject:
@@ -970,6 +970,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tuttone
       objectReference: {fileID: 0}
+    - target: {fileID: 691718705463182155, guid: 6874efad3e9542f46aee057c2181035d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1122934855037853247, guid: 6874efad3e9542f46aee057c2181035d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1009,6 +1013,14 @@ PrefabInstance:
     - target: {fileID: 1122934855037853247, guid: 6874efad3e9542f46aee057c2181035d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134635625692039270, guid: 6874efad3e9542f46aee057c2181035d, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593912192039302034, guid: 6874efad3e9542f46aee057c2181035d, type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
