@@ -28,8 +28,7 @@ public class CharacterMovement : MonoBehaviour
     {
         _controller = this.GetComponent<CharacterController>();
         _characterMain = this.GetComponent<CharacterMain>();
-        _child = this.transform.GetChild(0).gameObject;
-        _animator = _child.GetComponent<Animator>();
+        _animator = GetComponentInChildren<Animator>();
         UpdateSpeed();
     }
 
@@ -72,15 +71,21 @@ public class CharacterMovement : MonoBehaviour
     public void OnMove(InputAction.CallbackContext context)
     {
         Vector2 move = context.ReadValue<Vector2>();
+        float _movementMagnitude = move.magnitude;
+        Vector3 camFwd = Camera.main.transform.forward;
+        camFwd.y = 0;
+        camFwd.Normalize();
+        Vector3 dir = Quaternion.FromToRotation(camFwd, new Vector3(move.x, 0, move.y).normalized).ToEulerAngles().normalized;
+        Vector3 finalMovement = _movementMagnitude * dir;
         _movement.x = move.x;
         _movement.z = move.y;
         if (move == Vector2.zero)
         {
-            _animator.SetBool("IsRunning", false);
+            _animator.SetBool("isRunning", false);
         }
         else
         {
-            _animator.SetBool("IsRunning", true);
+            _animator.SetBool("isRunning", true);
         }
     }
 
@@ -100,6 +105,7 @@ public class CharacterMovement : MonoBehaviour
         _controller.enabled = false;
         this.transform.position = exitPortal.transform.position;
         _controller.enabled = true;
+        _animator = GetComponentInChildren<Animator>();
     }
 
     public void OnPortalExit()

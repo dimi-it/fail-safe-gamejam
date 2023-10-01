@@ -7,13 +7,14 @@ using UnityEngine.Serialization;
 public class CharacterData : ScriptableObject
 {
     public int health;
-    public int speed;
+    public float speed;
     public int range;
-    public int rateOfFire;
+    public float rateOfFire;
     public int damagePerBullet;
     public GameObject projectile;
     public Vector3 projectileSpawnPoint;
     public Sprite roleLogo;
     public GameObject characterMesh;
     public string tag;
+    public Sprite sprWin;
 }

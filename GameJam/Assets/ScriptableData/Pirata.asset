@@ -18,7 +18,8 @@ MonoBehaviour:
   rateOfFire: 1
   damagePerBullet: 1
   projectile: {fileID: 6208919535358331513, guid: 431915a23c82e468993d5b45b2f000ab, type: 3}
-  projectileSpawnPoint: {x: 1, y: 0, z: 0}
-  roleLogo: {fileID: 21300000, guid: 6166a8222e67a9c438ec5509c9db1d8a, type: 3}
+  projectileSpawnPoint: {x: 0, y: 0, z: 0}
+  roleLogo: {fileID: 21300000, guid: b02499b89052e3048b247e86b0fd559b, type: 3}
   characterMesh: {fileID: 3097414258081162512, guid: 88ba2b8b7bff948f29b8fc96664284c9, type: 3}
   tag: Pirata
+  sprWin: {fileID: 21300000, guid: 4bb4d871e28006e489fdd4c3afac9343, type: 3}

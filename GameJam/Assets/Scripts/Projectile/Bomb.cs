@@ -58,6 +58,8 @@ public class Bomb : MonoBehaviour
         {
             return;
         }
+        if (other.gameObject.GetInstanceID() == _owner.GetInstanceID())
+            return;
         other.gameObject.GetComponent<CharacterHealt>().
             DecreaseLife(_projectileMain.Damage);
     }

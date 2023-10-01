@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class BarIcon : MonoBehaviour
 {
+    public bool Invert;
     int id;
-    int maxHp;
+    public int maxHp;
     int currentHp;
     InGameUI inGameUi;
     List<GameObject> hpBlocks = new();
@@ -28,8 +29,7 @@ public class BarIcon : MonoBehaviour
     {
         if (this.id == id)
         {
-            maxHp = characterData.health;
-            currentHp = maxHp;
+            currentHp = characterData.health;
             UpdateHp();
         }
     }
@@ -38,7 +38,6 @@ public class BarIcon : MonoBehaviour
         if (this.id == id)
         {
             currentHp = 0;
-            maxHp = 0;
             UpdateHp();
         }
     }
@@ -61,13 +60,21 @@ public class BarIcon : MonoBehaviour
         for (i = 0; i < currentHp; i++)
         {
             GameObject newHp = Instantiate(inGameUi.hpFull, transform);
-            newHp.transform.position += Vector3.right * inGameUi.xOffset * i;
+            newHp.transform.position += Vector3.right * inGameUi.xOffset * (Invert? -i : i);
+            if (Invert)
+            {
+                newHp.GetComponent<RectTransform>().localScale = (new Vector3(-1, 1, 1));
+            }
             hpBlocks.Add(newHp);
         }
         for (; i < maxHp; i++)
         {
             GameObject newHp = Instantiate(inGameUi.hpEmpty, transform);
-            newHp.transform.position += Vector3.right * inGameUi.xOffset * i;
+            newHp.transform.position += Vector3.right * inGameUi.xOffset * (Invert ? -i : i);
+            if (Invert)
+            {
+                newHp.GetComponent<RectTransform>().localScale = (new Vector3(-1, 1, 1));
+            }
             hpBlocks.Add(newHp);
         }
     }
@@ -76,8 +83,7 @@ public class BarIcon : MonoBehaviour
     {
         inGameUi = FindAnyObjectByType<InGameUI>();
         id = GetComponentInParent<PlayerBar>().Id;
-        maxHp = inGameUi.startHp;
-        currentHp = maxHp;
+        currentHp = inGameUi.startHp;
         UpdateHp();
     }
 }

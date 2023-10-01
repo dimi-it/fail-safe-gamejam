@@ -27,29 +27,6 @@ public class CharacterMain : MonoBehaviour
     public void OnPortalEnter(Portal exitPortal)
     {
         _characterData = exitPortal.CharacterModifier;
-        _characterMovement.OnPortalEnter(exitPortal);
-        if (!_characterData.tag.Equals(_oldCharacterData.tag))
-        {
-            _characterShooting.OnPortalEnter();
-            _characterHealth.OnPortalEnter();
-            OnPortalEnterEvent?.Invoke(ID, _characterData);
-        }
-
-        if (_characterData.rateOfFire > 0)
-        {
-            _characterShooting.enabled = true;
-        }
-        else if (_characterData.rateOfFire == 0)
-        {
-            _characterShooting.enabled = false;
-        }
-        
-       
-    }
-    
-    public void OnPortalExit()
-    {
-        _characterMovement.OnPortalExit();
         if (!_characterData.tag.Equals(_oldCharacterData.tag))
         {
             foreach (Transform childTransform in transform.GetComponentsInChildren<Transform>(true))
@@ -64,6 +41,30 @@ public class CharacterMain : MonoBehaviour
                 }
             }
         }
+        _characterMovement.OnPortalEnter(exitPortal);
+        _characterShooting.OnPortalEnter();
+        if (!_characterData.tag.Equals(_oldCharacterData.tag))
+        {
+            _characterHealth.OnPortalEnter();
+            OnPortalEnterEvent?.Invoke(ID, _characterData);
+        }
+
+        if (_characterData.rateOfFire > 0)
+        {
+            _characterShooting.enabled = true;
+        }
+        else if (_characterData.rateOfFire == 0)
+        {
+            _characterShooting.enabled = false;
+        }
+
+
+        
+    }
+    
+    public void OnPortalExit()
+    {
+        _characterMovement.OnPortalExit();
 
         _oldCharacterData = _characterData;
     }

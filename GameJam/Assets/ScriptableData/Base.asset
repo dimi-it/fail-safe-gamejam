@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Base
   m_EditorClassIdentifier: 
   health: 1
-  speed: 1
+  speed: 1.5
   range: 1
   rateOfFire: 0
   damagePerBullet: 0
   projectile: {fileID: 0}
   projectileSpawnPoint: {x: 0, y: 0, z: 0}
-  roleLogo: {fileID: 21300000, guid: 10549f4817f0e0d47be8b9afba746a8e, type: 3}
+  roleLogo: {fileID: 21300000, guid: e2085c970c672ea4c907c4820942c24e, type: 3}
   characterMesh: {fileID: 3097414258081162512, guid: 88ba2b8b7bff948f29b8fc96664284c9, type: 3}
   tag: Base
+  sprWin: {fileID: 0}

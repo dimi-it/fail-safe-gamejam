@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 9d807c547d5496c4db5c98c47e8674d0
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: albero
+    second: {fileID: 2100000, guid: 30d31eb6dcaf32b4b90902c436b049cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: modular
+    second: {fileID: 2100000, guid: 8454dc0288fd01f46b43e2fd755edb55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: modular_muro_ninja
+    second: {fileID: 2100000, guid: 77ff3f6511c87a948bc17e5d706ff7c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: modular_pavim_ninja
+    second: {fileID: 2100000, guid: 8c33bdcae29e37a4cad50dd2005e3c82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: modular_pietre_mezzo
+    second: {fileID: 2100000, guid: 4fd7914fbbe84134fb7081edd0b3cbdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: modular_scifi
+    second: {fileID: 2100000, guid: 6edab8d97d7c08b49b627a837131b13f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: muro_pietre2
+    second: {fileID: 2100000, guid: a38e96b863f7c8545b0b8561539b9354, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oblo
+    second: {fileID: 2100000, guid: f0a9310040d7bf248aafeb03e9b828f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: portal_arco
+    second: {fileID: 2100000, guid: ec94d8c18e4c94543bdeaa4dda16429d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: portal_scifi
+    second: {fileID: 2100000, guid: 8ed91c2b9ff660d4ab806bd72164da98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: portal_stones
+    second: {fileID: 2100000, guid: a6a886154f5b8664ca653daf8fd3dd6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: portal_torii
+    second: {fileID: 2100000, guid: d21b8a7076a81924d94c1eb265306e59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ringhiera
+    second: {fileID: 2100000, guid: 5eab549c7e015f24c94d97a07cf9b888, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scale_centrali
+    second: {fileID: 2100000, guid: 5e6c5a6e56497c04ab147fdd1ad0061a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scale_ninja
+    second: {fileID: 2100000, guid: 94dd365e7b4c9354485bcd454cad7c26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scale_pietre
+    second: {fileID: 2100000, guid: 619c8e19834a3664ea9c942a22ab96d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scale_pirata
+    second: {fileID: 2100000, guid: 416be500ae238fb469af25832280044e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scale_scifi
+    second: {fileID: 2100000, guid: 6dafc96b503db9c48872bed9cb8c5f6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: terreno
+    second: {fileID: 2100000, guid: 1b4034748e5363f44bc0423a9931cbc4, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: albero_BaseColor
+    second: {fileID: 2800000, guid: 64a63e1a6a59412419fc6a72366ec482, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: albero_Metallic
+    second: {fileID: 2800000, guid: 96beb941dd90146419bc8e8f4451b1e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: albero_Normal
+    second: {fileID: 2800000, guid: f2dc19a683ba770468ca4febb6f9b78f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: albero_Roughness
+    second: {fileID: 2800000, guid: fbb9814b78b85d740b57c0cafa7fdf76, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_legno_quad_BaseColor
+    second: {fileID: 2800000, guid: b68d2571a3668e140aaa731ea75ea914, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_legno_quad_Metallic
+    second: {fileID: 2800000, guid: 2da0d4ed77f55e748a43269c21c71c91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_legno_quad_Normal
+    second: {fileID: 2800000, guid: eb166ff7d5a027f4d8588975624ae8c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_legno_quad_Roughness
+    second: {fileID: 2800000, guid: 3e73b77765e786e43823343614993c25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_muro_ninja_BaseColor
+    second: {fileID: 2800000, guid: 53e4af7dd51166e4393afc79ecc1fe68, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_muro_ninja_Metallic
+    second: {fileID: 2800000, guid: 79662ea8be0390c428dbedd81cbde571, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_muro_ninja_Normal
+    second: {fileID: 2800000, guid: 151fd2eb4b3d9ea4e927867b5d5356fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_muro_ninja_Roughness
+    second: {fileID: 2800000, guid: a386cd356689a2b46828fe77d735a4a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_pavim_ninja_BaseColor
+    second: {fileID: 2800000, guid: dd294c22c4a338b49aa35b8404050a83, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_pavim_ninja_Metallic
+    second: {fileID: 2800000, guid: 44d3cf207bb4f1748b5d48af8528e88a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_pavim_ninja_Normal
+    second: {fileID: 2800000, guid: a89d26435d3577643ab7dce3353904b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_pavim_ninja_Roughness
+    second: {fileID: 2800000, guid: ba4946ddd736d5f4fb5697cb5c0acf7d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_pietre_BaseColor
+    second: {fileID: 2800000, guid: c902c3143f6d96145812de1aa8f6be0f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_pietre_Metallic
+    second: {fileID: 2800000, guid: 61734092775277d4ab005360e005bd66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_pietre_Normal
+    second: {fileID: 2800000, guid: e228434c3b13ad14fa56a13f85b00d3e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_pietre_Roughness
+    second: {fileID: 2800000, guid: 47ede8cc07d065043804ad9bc48527f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_scifi_BaseColor
+    second: {fileID: 2800000, guid: bb4f9cd94dec974449d9978450f7a3f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_scifi_Metallic
+    second: {fileID: 2800000, guid: 596e908544e396644938ef09727d9471, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_scifi_Normal
+    second: {fileID: 2800000, guid: ed893e431beef42439e17c5a10389430, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modular_scifi_Roughness
+    second: {fileID: 2800000, guid: 014249a868540744786764f3b9896524, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: muro_pietre_mezzo_BaseColor
+    second: {fileID: 2800000, guid: ee64d926c2c73db43af6d4b60b68a250, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: muro_pietre_mezzo_Metallic
+    second: {fileID: 2800000, guid: 2edadf708774843478b59544eff3a8c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: muro_pietre_mezzo_Normal
+    second: {fileID: 2800000, guid: c3f28181faf588041a2fb2ff9ee9c30a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: muro_pietre_mezzo_Roughness
+    second: {fileID: 2800000, guid: a96f31637d1347e4f9dc4caaad9915d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: oblo_BaseColor
+    second: {fileID: 2800000, guid: 1e6ea77f15899ef459c6fcd568a6f506, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: oblo_Metallic
+    second: {fileID: 2800000, guid: f6b37f05cb5622f448d57d87374dda64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: oblo_Normal
+    second: {fileID: 2800000, guid: aa4d850999dd52d499ad8970e08176ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: oblo_Roughness
+    second: {fileID: 2800000, guid: fba82ec115f70284cb8bfeaf3c05bdbd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: platform_stones_BaseColor
+    second: {fileID: 2800000, guid: 35d7c0687f1dfda4884347d51cd6f5a0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: platform_stones_Metallic
+    second: {fileID: 2800000, guid: 7611c7a777340ce418eff2a66f960fc2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: platform_stones_Normal
+    second: {fileID: 2800000, guid: def21038aa88b694c921be2466d11f6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: platform_stones_Roughness
+    second: {fileID: 2800000, guid: b214abfb226a0d040bcfde76762ed8b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: portal_arco_BaseColor
+    second: {fileID: 2800000, guid: 20aa9b2fb02f1714485afce2f542439f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: portal_arco_Metallic
+    second: {fileID: 2800000, guid: 016931db53e0c1b46a7a3341830d0a33, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: portal_arco_Normal
+    second: {fileID: 2800000, guid: 61d58e81d514db6439fa9c84538310c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: portal_arco_Roughness
+    second: {fileID: 2800000, guid: 55061ceb27e58c94aa62a0ae618766c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: portal_scifi_BaseColor
+    second: {fileID: 2800000, guid: 7ba4158876a16a54983d466653447523, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: portal_scifi_Metallic
+    second: {fileID: 2800000, guid: e8b1eb1e87c62eb48a6c522a898faf91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: portal_scifi_Normal
+    second: {fileID: 2800000, guid: 680df6002cf2e18409058c04d3ac1f4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: portal_scifi_Roughness
+    second: {fileID: 2800000, guid: a3d8323289441ae488eb327d801f3b45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: portal_torii_BaseColor
+    second: {fileID: 2800000, guid: 3cdf53a072e9c4a4fadc2f821bd944e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: portal_torii_Metallic
+    second: {fileID: 2800000, guid: adb4f9f08f546d141995d2741c67bc53, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: portal_torii_Normal
+    second: {fileID: 2800000, guid: fd60bf36e4dba7f459b4fa851c31b9c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: portal_torii_Roughness
+    second: {fileID: 2800000, guid: 1c16cddf1a0894b4fb431b9958173867, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ringhiera_BaseColor
+    second: {fileID: 2800000, guid: 661f786602f07464dad2bd292956c2c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ringhiera_Metallic
+    second: {fileID: 2800000, guid: 7770c0002617344469a9395c19373f12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ringhiera_Normal
+    second: {fileID: 2800000, guid: 65314b05a21f0034cad72d5d67ec3146, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ringhiera_Roughness
+    second: {fileID: 2800000, guid: b117016b55885754da13ebc8c3f2893b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_centrali_BaseColor
+    second: {fileID: 2800000, guid: 4e8201e8ef199a240bcbb7fe46e751d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_centrali_Metallic
+    second: {fileID: 2800000, guid: f093e146a36ebab4c9335707b3d4d8d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_centrali_Normal
+    second: {fileID: 2800000, guid: aeeb30d960f805542b484c2dcc5796ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_centrali_Roughness
+    second: {fileID: 2800000, guid: 5db20afedd9e9e64a928b76554084b63, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_ninja_BaseColor
+    second: {fileID: 2800000, guid: 729606a8cfc0c434b944651f574c9d95, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_ninja_Metallic
+    second: {fileID: 2800000, guid: 2f3aa15406e39c345a13090b968a9fe9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_ninja_Normal
+    second: {fileID: 2800000, guid: 9feae67f5fc18bb4fb52aa7dce402353, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_ninja_Roughness
+    second: {fileID: 2800000, guid: e714cfbda8dc0884db96a8686f51a8b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_pietre_BaseColor
+    second: {fileID: 2800000, guid: e7c330e43b155bf42933614e6ffcbd8d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_pietre_Metallic
+    second: {fileID: 2800000, guid: 1251f53ddc482484f8bb283492eb53e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_pietre_Normal
+    second: {fileID: 2800000, guid: bba5268538e693048855878e455ce0d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_pietre_Roughness
+    second: {fileID: 2800000, guid: 1341ca14aea049f428f182509917d419, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_pirata_BaseColor
+    second: {fileID: 2800000, guid: 08d88137dbd52f64e9d60a0384cc98af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_pirata_Metallic
+    second: {fileID: 2800000, guid: b2d223113aa72254eb36028e76e6ae4d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_pirata_Normal
+    second: {fileID: 2800000, guid: 113f8d5f979daea40a5bcdd9614c8943, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_pirata_Roughness
+    second: {fileID: 2800000, guid: f79a2cb8c94189a4f834b7d2da6309da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_scifi_BaseColor
+    second: {fileID: 2800000, guid: d2a4c99fe10250845929dffd6d1750a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_scifi_Metallic
+    second: {fileID: 2800000, guid: 6a6d0bf5e2e81734a85ebad782962d89, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_scifi_Normal
+    second: {fileID: 2800000, guid: f73d87dc5b9975947bb18a506ac4fde3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: scale_scifi_Roughness
+    second: {fileID: 2800000, guid: e196d9dd7e5a324498f9ea099dc104a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terreno_BaseColor
+    second: {fileID: 2800000, guid: 3f2b67f32db4d294ca0a2ee3b719c560, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terreno_Metallic
+    second: {fileID: 2800000, guid: 22ee9f16ca1f25147bbf99d461a98837, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terreno_Normal
+    second: {fileID: 2800000, guid: 9440f0673031ade4992e1a1ab6fa2d46, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terreno_Roughness
+    second: {fileID: 2800000, guid: 515d4e6ea334cdb41b6edae98f56376a, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

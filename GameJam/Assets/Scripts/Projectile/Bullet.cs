@@ -20,10 +20,12 @@ public class Bullet : MonoBehaviour
         Invoke(nameof(OnTimerElapsed), _timeRange);
     }
 
+    /*
     private void OnTriggerExit(Collider other)
     {
         this.gameObject.GetComponent<Collider>().isTrigger = false;
     }
+    */
 
     private void OnCollisionEnter(Collision other)
     {

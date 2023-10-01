@@ -9,17 +9,20 @@ public class CharacterHealt : MonoBehaviour
     private CharacterMain _characterMain;
     public static event Action<int, float> OnDecreaseLife;
     public static event Action<int> OnDeath;
-
+    Animator anim;
     private void Start()
     {
         _characterMain = this.GetComponent<CharacterMain>();
         _healt = _characterMain.CharacterData.health;
+        anim = GetComponentInChildren<Animator>();
+
     }
 
     public void DecreaseLife(float damage)
     {
         Debug.Log($"{damage}");
         _healt -= damage;
+        anim.SetTrigger("Hit");
         if (_healt < 0)
         {
             _healt = 0;
@@ -38,6 +41,8 @@ public class CharacterHealt : MonoBehaviour
     public void OnPortalEnter()
     {
         _healt = _characterMain.CharacterData.health;
+        anim = GetComponentInChildren<Animator>();
+
     }
     public void Kill()
     {
