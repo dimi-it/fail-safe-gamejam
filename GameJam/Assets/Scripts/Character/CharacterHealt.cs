@@ -6,10 +6,11 @@ using UnityEngine;
 public class CharacterHealt : MonoBehaviour
 {
     [SerializeField] private float _healt;
+    [SerializeField] private float _deathDuration = 2;
     private CharacterMain _characterMain;
     public static event Action<int, float> OnDecreaseLife;
     public static event Action<int> OnDeath;
-    Animator anim;
+    private Animator anim;
     private void Start()
     {
         _characterMain = this.GetComponent<CharacterMain>();
@@ -29,8 +30,8 @@ public class CharacterHealt : MonoBehaviour
         }
         if (_healt == 0)
         {
-            OnDeath?.Invoke(_characterMain.ID);
-            gameObject.SetActive(false);
+            anim.SetTrigger("Death");
+            Invoke(nameof(Kill), _deathDuration);
         }
         else
         {
