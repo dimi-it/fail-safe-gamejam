@@ -164,6 +164,7 @@ MonoBehaviour:
   _speed: 8
   _timeRange: 2
   _colliderRadius: 10
+  _AngleShoot: 0.5
 --- !u!82 &5867435171111682555
 AudioSource:
   m_ObjectHideFlags: 0

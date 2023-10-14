@@ -507,7 +507,7 @@ MonoBehaviour:
   - {fileID: 1989889609}
   StartDelay: 1.5
   RestartDelay: 3
-  MaxPlayers: 4
+  MaxPlayers: 2
   PlayersAlive: 0
 --- !u!1 &999763417
 GameObject:

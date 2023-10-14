@@ -8,6 +8,7 @@ public class Bomb : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private float _timeRange;
     [SerializeField] private float _colliderRadius;
+    [SerializeField] private float _AngleShoot;
     private ProjectileMain _projectileMain;
     private GameObject _owner;
     private Rigidbody _rigidbody;
@@ -19,7 +20,7 @@ public class Bomb : MonoBehaviour
         _owner = _projectileMain.Owner;
         _rigidbody = this.GetComponent<Rigidbody>();
         _sphereCollider = this.GetComponent<SphereCollider>();
-        _rigidbody.velocity = _speed * (this.transform.forward + new Vector3(0, 0.8f, 0).normalized);
+        _rigidbody.velocity = _speed * (this.transform.forward + new Vector3(0, _AngleShoot, 0).normalized);
         Invoke(nameof(OnTimerElapsed), _timeRange);
         _sphereCollider.isTrigger = false;
     }
